@@ -116,7 +116,7 @@ namespace PhonebookApp.Reports
             //	Table table = default(Table);
             var with1 = reportConInfo;
             with1.ServerName = "tcp:KyotoServer,49172";
-            with1.DatabaseName = "KBDEnterprizeDecember";
+            with1.DatabaseName = "KBDEnterpriseDecember";
             with1.UserID = "sa";
             with1.Password = "SystemAdministrator";
             GreetingCardsForResidentialAdd cr = new GreetingCardsForResidentialAdd();
@@ -166,7 +166,7 @@ namespace PhonebookApp.Reports
             //	Table table = default(Table);
             var with1 = reportConInfo;
             with1.ServerName = "tcp:KyotoServer,49172";
-            with1.DatabaseName = "KBDEnterprizeDecember";
+            with1.DatabaseName = "KBDEnterpriseDecember";
             with1.UserID = "sa";
             with1.Password = "SystemAdministrator";
             GreetingCardsForWorkingAdd cr = new GreetingCardsForWorkingAdd();

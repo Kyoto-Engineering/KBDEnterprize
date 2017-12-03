@@ -73,11 +73,11 @@
             // 
             // RefNowaterMarkTextBox
             // 
-            this.RefNowaterMarkTextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RefNowaterMarkTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.RefNowaterMarkTextBox.Location = new System.Drawing.Point(145, 112);
             this.RefNowaterMarkTextBox.MaxLength = 90;
             this.RefNowaterMarkTextBox.Name = "RefNowaterMarkTextBox";
-            this.RefNowaterMarkTextBox.Size = new System.Drawing.Size(150, 26);
+            this.RefNowaterMarkTextBox.Size = new System.Drawing.Size(150, 29);
             this.RefNowaterMarkTextBox.TabIndex = 51;
             this.RefNowaterMarkTextBox.WaterMarkColor = System.Drawing.Color.Gray;
             this.RefNowaterMarkTextBox.WaterMarkText = "If Any";
@@ -85,18 +85,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(4, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 22);
+            this.label1.Size = new System.Drawing.Size(140, 24);
             this.label1.TabIndex = 50;
             this.label1.Text = "Reference No";
             // 
             // removeButton
             // 
             this.removeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.removeButton.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.removeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.removeButton.Location = new System.Drawing.Point(363, 211);
             this.removeButton.Name = "removeButton";
@@ -110,29 +110,29 @@
             // 
             this.cmbDispatchBy.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.cmbDispatchBy.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cmbDispatchBy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbDispatchBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.cmbDispatchBy.FormattingEnabled = true;
             this.cmbDispatchBy.Location = new System.Drawing.Point(145, 69);
             this.cmbDispatchBy.Name = "cmbDispatchBy";
-            this.cmbDispatchBy.Size = new System.Drawing.Size(150, 27);
+            this.cmbDispatchBy.Size = new System.Drawing.Size(150, 32);
             this.cmbDispatchBy.TabIndex = 48;
             this.cmbDispatchBy.SelectedIndexChanged += new System.EventHandler(this.cmbDispatchBy_SelectedIndexChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(4, 69);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 22);
+            this.label4.Size = new System.Drawing.Size(119, 24);
             this.label4.TabIndex = 47;
             this.label4.Text = "Dispatch By";
             // 
             // submitButton
             // 
             this.submitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.submitButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.submitButton.ForeColor = System.Drawing.Color.Fuchsia;
             this.submitButton.Location = new System.Drawing.Point(363, 267);
             this.submitButton.Name = "submitButton";
@@ -145,7 +145,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Yellow;
             this.button1.Location = new System.Drawing.Point(363, 151);
             this.button1.Name = "button1";
@@ -157,21 +157,21 @@
             // 
             // PersonIdtextBox
             // 
-            this.PersonIdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PersonIdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.PersonIdtextBox.Location = new System.Drawing.Point(145, 154);
             this.PersonIdtextBox.Name = "PersonIdtextBox";
-            this.PersonIdtextBox.Size = new System.Drawing.Size(150, 26);
+            this.PersonIdtextBox.Size = new System.Drawing.Size(150, 29);
             this.PersonIdtextBox.TabIndex = 41;
             this.PersonIdtextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PersonIdtextBox_KeyDown);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(6, 156);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 22);
+            this.label2.Size = new System.Drawing.Size(101, 24);
             this.label2.TabIndex = 40;
             this.label2.Text = "Person ID";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -179,21 +179,21 @@
             // DateForBatch
             // 
             this.DateForBatch.Enabled = false;
-            this.DateForBatch.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DateForBatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.DateForBatch.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DateForBatch.Location = new System.Drawing.Point(145, 24);
+            this.DateForBatch.Location = new System.Drawing.Point(145, 27);
             this.DateForBatch.Name = "DateForBatch";
-            this.DateForBatch.Size = new System.Drawing.Size(150, 32);
+            this.DateForBatch.Size = new System.Drawing.Size(150, 29);
             this.DateForBatch.TabIndex = 36;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.Black;
             this.label14.Location = new System.Drawing.Point(6, 32);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(54, 22);
+            this.label14.Size = new System.Drawing.Size(58, 24);
             this.label14.TabIndex = 37;
             this.label14.Text = "Date ";
             // 
@@ -247,11 +247,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Green;
             this.label3.Location = new System.Drawing.Point(220, 17);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(273, 33);
+            this.label3.Size = new System.Drawing.Size(303, 33);
             this.label3.TabIndex = 2;
             this.label3.Text = "Batch Creation Form";
             // 

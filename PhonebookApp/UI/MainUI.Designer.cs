@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainUI));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.ViewAndReportbutton = new System.Windows.Forms.Button();
@@ -38,18 +39,17 @@
             this.NewEntrybutton = new System.Windows.Forms.Button();
             this.MemberAddedToGroupbutton = new System.Windows.Forms.Button();
             this.logOutButton = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(431, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 31);
+            this.label1.Size = new System.Drawing.Size(325, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Business Directory Plus";
             // 
@@ -62,16 +62,30 @@
             this.groupBox1.Controls.Add(this.ManageGroupsbutton);
             this.groupBox1.Controls.Add(this.NewEntrybutton);
             this.groupBox1.Controls.Add(this.MemberAddedToGroupbutton);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupBox1.Location = new System.Drawing.Point(17, 81);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(361, 439);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.Blue;
+            this.button3.Location = new System.Drawing.Point(21, 350);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(134, 66);
+            this.button3.TabIndex = 51;
+            this.button3.Text = "Insert POD";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.Blue;
             this.button2.Location = new System.Drawing.Point(193, 245);
             this.button2.Name = "button2";
@@ -84,7 +98,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(21, 248);
             this.button1.Name = "button1";
@@ -97,20 +111,20 @@
             // ViewAndReportbutton
             // 
             this.ViewAndReportbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ViewAndReportbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewAndReportbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.ViewAndReportbutton.ForeColor = System.Drawing.Color.Blue;
             this.ViewAndReportbutton.Location = new System.Drawing.Point(192, 143);
             this.ViewAndReportbutton.Name = "ViewAndReportbutton";
             this.ViewAndReportbutton.Size = new System.Drawing.Size(134, 68);
             this.ViewAndReportbutton.TabIndex = 48;
-            this.ViewAndReportbutton.Text = "View And Report";
+            this.ViewAndReportbutton.Text = "View And Print";
             this.ViewAndReportbutton.UseVisualStyleBackColor = false;
             this.ViewAndReportbutton.Click += new System.EventHandler(this.ViewAndReportbutton_Click);
             // 
             // ManageGroupsbutton
             // 
             this.ManageGroupsbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ManageGroupsbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManageGroupsbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.ManageGroupsbutton.ForeColor = System.Drawing.Color.Blue;
             this.ManageGroupsbutton.Location = new System.Drawing.Point(192, 38);
             this.ManageGroupsbutton.Name = "ManageGroupsbutton";
@@ -123,7 +137,7 @@
             // NewEntrybutton
             // 
             this.NewEntrybutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.NewEntrybutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewEntrybutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.NewEntrybutton.ForeColor = System.Drawing.Color.Blue;
             this.NewEntrybutton.Location = new System.Drawing.Point(21, 38);
             this.NewEntrybutton.Name = "NewEntrybutton";
@@ -136,6 +150,7 @@
             // MemberAddedToGroupbutton
             // 
             this.MemberAddedToGroupbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.MemberAddedToGroupbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.MemberAddedToGroupbutton.ForeColor = System.Drawing.Color.Blue;
             this.MemberAddedToGroupbutton.Location = new System.Drawing.Point(22, 142);
             this.MemberAddedToGroupbutton.Name = "MemberAddedToGroupbutton";
@@ -157,19 +172,6 @@
             this.logOutButton.Text = "LogOut";
             this.logOutButton.UseVisualStyleBackColor = false;
             this.logOutButton.Click += new System.EventHandler(this.logOutButton_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Blue;
-            this.button3.Location = new System.Drawing.Point(21, 350);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 66);
-            this.button3.TabIndex = 51;
-            this.button3.Text = "Insert POD";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // MainUI
             // 

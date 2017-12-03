@@ -240,18 +240,18 @@
             // groupNamelabel
             // 
             this.groupNamelabel.AutoSize = true;
-            this.groupNamelabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupNamelabel.ForeColor = System.Drawing.Color.OrangeRed;
-            this.groupNamelabel.Location = new System.Drawing.Point(620, 405);
+            this.groupNamelabel.Location = new System.Drawing.Point(611, 403);
             this.groupNamelabel.Name = "groupNamelabel";
-            this.groupNamelabel.Size = new System.Drawing.Size(116, 22);
+            this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
             this.groupNamelabel.TabIndex = 5;
             this.groupNamelabel.Text = "Group Name";
             // 
             // addbutton
             // 
             this.addbutton.BackColor = System.Drawing.Color.Yellow;
-            this.addbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.addbutton.ForeColor = System.Drawing.Color.Black;
             this.addbutton.Location = new System.Drawing.Point(421, 386);
             this.addbutton.Name = "addbutton";
@@ -264,11 +264,11 @@
             // submitbutton
             // 
             this.submitbutton.BackColor = System.Drawing.Color.Blue;
-            this.submitbutton.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.submitbutton.ForeColor = System.Drawing.Color.White;
-            this.submitbutton.Location = new System.Drawing.Point(1069, 392);
+            this.submitbutton.Location = new System.Drawing.Point(1060, 392);
             this.submitbutton.Name = "submitbutton";
-            this.submitbutton.Size = new System.Drawing.Size(88, 53);
+            this.submitbutton.Size = new System.Drawing.Size(97, 53);
             this.submitbutton.TabIndex = 7;
             this.submitbutton.Text = "Submit";
             this.submitbutton.UseVisualStyleBackColor = false;
@@ -276,22 +276,22 @@
             // 
             // GroupNamecomboBox
             // 
-            this.GroupNamecomboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupNamecomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.GroupNamecomboBox.FormattingEnabled = true;
             this.GroupNamecomboBox.Location = new System.Drawing.Point(742, 402);
             this.GroupNamecomboBox.Name = "GroupNamecomboBox";
-            this.GroupNamecomboBox.Size = new System.Drawing.Size(257, 27);
+            this.GroupNamecomboBox.Size = new System.Drawing.Size(257, 28);
             this.GroupNamecomboBox.TabIndex = 8;
             this.GroupNamecomboBox.SelectedIndexChanged += new System.EventHandler(this.GroupNamecomboBox_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(22, 12);
+            this.label1.Location = new System.Drawing.Point(13, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 31);
+            this.label1.Size = new System.Drawing.Size(328, 31);
             this.label1.TabIndex = 9;
             this.label1.Text = "Contact Added to Group";
             // 
@@ -307,7 +307,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.richTextBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.groupBox2.ForeColor = System.Drawing.Color.OliveDrab;
             this.groupBox2.Location = new System.Drawing.Point(30, 245);
             this.groupBox2.Name = "groupBox2";
@@ -328,7 +328,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.richTextBox2);
-            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.groupBox3.ForeColor = System.Drawing.Color.Red;
             this.groupBox3.Location = new System.Drawing.Point(26, 404);
             this.groupBox3.Name = "groupBox3";
@@ -349,11 +349,11 @@
             // removeButton
             // 
             this.removeButton.BackColor = System.Drawing.Color.Red;
-            this.removeButton.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.removeButton.ForeColor = System.Drawing.Color.White;
-            this.removeButton.Location = new System.Drawing.Point(312, 575);
+            this.removeButton.Location = new System.Drawing.Point(300, 575);
             this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(81, 53);
+            this.removeButton.Size = new System.Drawing.Size(93, 53);
             this.removeButton.TabIndex = 13;
             this.removeButton.Text = "Remove";
             this.removeButton.UseVisualStyleBackColor = false;
@@ -371,7 +371,7 @@
             // 
             // PersonSearchtextBox
             // 
-            this.PersonSearchtextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PersonSearchtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.PersonSearchtextBox.Location = new System.Drawing.Point(14, 20);
             this.PersonSearchtextBox.Name = "PersonSearchtextBox";
             this.PersonSearchtextBox.Size = new System.Drawing.Size(265, 26);
@@ -391,7 +391,7 @@
             // 
             // CompanySearchtextBox
             // 
-            this.CompanySearchtextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CompanySearchtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.CompanySearchtextBox.Location = new System.Drawing.Point(12, 20);
             this.CompanySearchtextBox.Name = "CompanySearchtextBox";
             this.CompanySearchtextBox.Size = new System.Drawing.Size(283, 26);

@@ -49,7 +49,7 @@ namespace PhonebookApp.LogInUI
             // 
             // txtConfirmPassword
             // 
-            this.txtConfirmPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtConfirmPassword.Location = new System.Drawing.Point(185, 204);
             this.txtConfirmPassword.MaxLength = 50;
             this.txtConfirmPassword.Name = "txtConfirmPassword";
@@ -60,7 +60,7 @@ namespace PhonebookApp.LogInUI
             // 
             // txtNewPassword
             // 
-            this.txtNewPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNewPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtNewPassword.Location = new System.Drawing.Point(185, 159);
             this.txtNewPassword.MaxLength = 50;
             this.txtNewPassword.Name = "txtNewPassword";
@@ -71,7 +71,7 @@ namespace PhonebookApp.LogInUI
             // 
             // txtOldPassword
             // 
-            this.txtOldPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOldPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtOldPassword.Location = new System.Drawing.Point(185, 109);
             this.txtOldPassword.MaxLength = 50;
             this.txtOldPassword.Name = "txtOldPassword";
@@ -82,7 +82,7 @@ namespace PhonebookApp.LogInUI
             // 
             // txtUserName
             // 
-            this.txtUserName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtUserName.Location = new System.Drawing.Point(185, 63);
             this.txtUserName.MaxLength = 50;
             this.txtUserName.Name = "txtUserName";
@@ -93,7 +93,7 @@ namespace PhonebookApp.LogInUI
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(185, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 34);
@@ -105,42 +105,42 @@ namespace PhonebookApp.LogInUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label4.Location = new System.Drawing.Point(12, 207);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(173, 19);
+            this.label4.Size = new System.Drawing.Size(169, 20);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Confirm Password            :";
+            this.label4.Text = "Confirm Password       :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label3.Location = new System.Drawing.Point(12, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(174, 19);
+            this.label3.Size = new System.Drawing.Size(169, 20);
             this.label3.TabIndex = 0;
-            this.label3.Text = "New Password                 :";
+            this.label3.Text = "New Password             :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label2.Location = new System.Drawing.Point(12, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 19);
+            this.label2.Size = new System.Drawing.Size(170, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Old Password                   :";
+            this.label2.Text = "Old Password               :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.label1.Location = new System.Drawing.Point(12, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 19);
+            this.label1.Size = new System.Drawing.Size(169, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "User Name                       :";
+            this.label1.Text = "User Name                   :";
             // 
             // ChangePassword
             // 

@@ -42,16 +42,16 @@
             // groupNamelabel
             // 
             this.groupNamelabel.AutoSize = true;
-            this.groupNamelabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupNamelabel.Location = new System.Drawing.Point(163, 114);
             this.groupNamelabel.Name = "groupNamelabel";
-            this.groupNamelabel.Size = new System.Drawing.Size(116, 22);
+            this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
             this.groupNamelabel.TabIndex = 7;
             this.groupNamelabel.Text = "Group Name";
             // 
             // groupNametextBox
             // 
-            this.groupNametextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupNametextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupNametextBox.Location = new System.Drawing.Point(302, 114);
             this.groupNametextBox.MaxLength = 100;
             this.groupNametextBox.Name = "groupNametextBox";
@@ -62,7 +62,7 @@
             // savebutton
             // 
             this.savebutton.BackColor = System.Drawing.Color.CadetBlue;
-            this.savebutton.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.savebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.savebutton.ForeColor = System.Drawing.Color.Black;
             this.savebutton.Location = new System.Drawing.Point(409, 360);
             this.savebutton.Name = "savebutton";
@@ -75,20 +75,20 @@
             // definitionlabel
             // 
             this.definitionlabel.AutoSize = true;
-            this.definitionlabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.definitionlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.definitionlabel.Location = new System.Drawing.Point(189, 161);
             this.definitionlabel.Name = "definitionlabel";
-            this.definitionlabel.Size = new System.Drawing.Size(90, 22);
+            this.definitionlabel.Size = new System.Drawing.Size(97, 24);
             this.definitionlabel.TabIndex = 10;
             this.definitionlabel.Text = "Definition";
             // 
             // purposelabel
             // 
             this.purposelabel.AutoSize = true;
-            this.purposelabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.purposelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.purposelabel.Location = new System.Drawing.Point(202, 303);
             this.purposelabel.Name = "purposelabel";
-            this.purposelabel.Size = new System.Drawing.Size(77, 22);
+            this.purposelabel.Size = new System.Drawing.Size(88, 24);
             this.purposelabel.TabIndex = 12;
             this.purposelabel.Text = "Purpose";
             // 
@@ -105,17 +105,17 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Blue;
             this.label3.Location = new System.Drawing.Point(341, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(205, 33);
+            this.label3.Size = new System.Drawing.Size(228, 33);
             this.label3.TabIndex = 15;
             this.label3.Text = "Group Creation";
             // 
             // purposetextBox
             // 
-            this.purposetextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.purposetextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.purposetextBox.Location = new System.Drawing.Point(302, 303);
             this.purposetextBox.MaxLength = 200;
             this.purposetextBox.Name = "purposetextBox";

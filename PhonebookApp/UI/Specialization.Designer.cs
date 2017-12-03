@@ -39,16 +39,16 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.Location = new System.Drawing.Point(19, 13);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(123, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(139, 24);
             this.lblCategoryName.TabIndex = 4;
             this.lblCategoryName.Text = "Specialization";
             // 
             // txtSpecialization
             // 
-            this.txtSpecialization.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtSpecialization.Location = new System.Drawing.Point(22, 31);
             this.txtSpecialization.MaxLength = 90;
             this.txtSpecialization.Name = "txtSpecialization";
@@ -68,7 +68,7 @@
             // btnSaveSpecialization
             // 
             this.btnSaveSpecialization.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSaveSpecialization.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveSpecialization.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveSpecialization.Location = new System.Drawing.Point(305, 166);
             this.btnSaveSpecialization.Name = "btnSaveSpecialization";

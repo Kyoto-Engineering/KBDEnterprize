@@ -39,17 +39,17 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.ForeColor = System.Drawing.Color.Blue;
             this.lblCategoryName.Location = new System.Drawing.Point(31, 22);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(185, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(206, 24);
             this.lblCategoryName.TabIndex = 0;
             this.lblCategoryName.Text = "Job Title/Designation";
             // 
             // txtJobTitle
             // 
-            this.txtJobTitle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtJobTitle.Location = new System.Drawing.Point(22, 31);
             this.txtJobTitle.MaxLength = 90;
             this.txtJobTitle.Name = "txtJobTitle";
@@ -69,7 +69,7 @@
             // btnSaveJobTitle
             // 
             this.btnSaveJobTitle.BackColor = System.Drawing.Color.Lime;
-            this.btnSaveJobTitle.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveJobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveJobTitle.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveJobTitle.Location = new System.Drawing.Point(310, 168);
             this.btnSaveJobTitle.Name = "btnSaveJobTitle";

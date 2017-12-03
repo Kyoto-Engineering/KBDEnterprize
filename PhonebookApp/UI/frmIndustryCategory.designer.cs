@@ -54,7 +54,7 @@
             // 
             // txtIndustryCategory
             // 
-            this.txtIndustryCategory.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIndustryCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtIndustryCategory.Location = new System.Drawing.Point(195, 36);
             this.txtIndustryCategory.MaxLength = 200;
             this.txtIndustryCategory.Name = "txtIndustryCategory";
@@ -64,7 +64,7 @@
             // saveButton
             // 
             this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.saveButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.saveButton.ForeColor = System.Drawing.Color.Blue;
             this.saveButton.Location = new System.Drawing.Point(342, 82);
             this.saveButton.Name = "saveButton";
@@ -77,10 +77,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(7, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 22);
+            this.label1.Size = new System.Drawing.Size(178, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Industry  Category";
             // 

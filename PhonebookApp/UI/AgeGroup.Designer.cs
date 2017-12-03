@@ -39,17 +39,17 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.ForeColor = System.Drawing.Color.White;
             this.lblCategoryName.Location = new System.Drawing.Point(36, 19);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(100, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(112, 24);
             this.lblCategoryName.TabIndex = 0;
             this.lblCategoryName.Text = "Age Group";
             // 
             // txtAgeGroup
             // 
-            this.txtAgeGroup.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAgeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtAgeGroup.Location = new System.Drawing.Point(22, 31);
             this.txtAgeGroup.MaxLength = 90;
             this.txtAgeGroup.Name = "txtAgeGroup";
@@ -69,7 +69,7 @@
             // btnSaveAgeGroup
             // 
             this.btnSaveAgeGroup.BackColor = System.Drawing.Color.Lime;
-            this.btnSaveAgeGroup.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveAgeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveAgeGroup.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveAgeGroup.Location = new System.Drawing.Point(306, 173);
             this.btnSaveAgeGroup.Name = "btnSaveAgeGroup";

@@ -63,22 +63,22 @@
             // 
             // GroupNamecomboBox
             // 
-            this.GroupNamecomboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GroupNamecomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.GroupNamecomboBox.FormattingEnabled = true;
             this.GroupNamecomboBox.Location = new System.Drawing.Point(6, 37);
             this.GroupNamecomboBox.Name = "GroupNamecomboBox";
-            this.GroupNamecomboBox.Size = new System.Drawing.Size(287, 27);
+            this.GroupNamecomboBox.Size = new System.Drawing.Size(287, 28);
             this.GroupNamecomboBox.TabIndex = 12;
             this.GroupNamecomboBox.SelectedIndexChanged += new System.EventHandler(this.GroupNamecomboBox_SelectedIndexChanged);
             // 
             // groupNamelabel
             // 
             this.groupNamelabel.AutoSize = true;
-            this.groupNamelabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupNamelabel.ForeColor = System.Drawing.Color.OrangeRed;
             this.groupNamelabel.Location = new System.Drawing.Point(4, 11);
             this.groupNamelabel.Name = "groupNamelabel";
-            this.groupNamelabel.Size = new System.Drawing.Size(116, 22);
+            this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
             this.groupNamelabel.TabIndex = 11;
             this.groupNamelabel.Text = "Group Name";
             // 
@@ -191,7 +191,7 @@
             // removeButton
             // 
             this.removeButton.BackColor = System.Drawing.Color.SandyBrown;
-            this.removeButton.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.removeButton.ForeColor = System.Drawing.Color.Black;
             this.removeButton.Location = new System.Drawing.Point(177, 208);
             this.removeButton.Name = "removeButton";

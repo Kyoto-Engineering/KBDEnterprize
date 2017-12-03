@@ -60,6 +60,7 @@
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.fLandmarkTextBox = new System.Windows.Forms.TextBox();
             this.fZipTextBox = new System.Windows.Forms.TextBox();
@@ -87,7 +88,6 @@
             this.Nationality = new System.Windows.Forms.Label();
             this.textdepartment = new System.Windows.Forms.TextBox();
             this.label70 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.userPictureBox)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -273,10 +273,10 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.label67.Location = new System.Drawing.Point(12, 580);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(246, 15);
+            this.label67.Size = new System.Drawing.Size(307, 16);
             this.label67.TabIndex = 136;
             this.label67.Text = "Only .JPG, .JPEG, .PNG, .BMP is Supported";
             // 
@@ -305,7 +305,7 @@
             this.userPictureBox.BackColor = System.Drawing.Color.MistyRose;
             this.userPictureBox.BackgroundImage = global::PhonebookApp.Properties.Resources.user_up;
             this.userPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.userPictureBox.Location = new System.Drawing.Point(268, 475);
+            this.userPictureBox.Location = new System.Drawing.Point(325, 473);
             this.userPictureBox.Name = "userPictureBox";
             this.userPictureBox.Size = new System.Drawing.Size(150, 150);
             this.userPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -372,10 +372,10 @@
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(336, 41);
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label60.Location = new System.Drawing.Point(321, 41);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(106, 19);
+            this.label60.Size = new System.Drawing.Size(121, 20);
             this.label60.TabIndex = 18;
             this.label60.Text = "Marital Status";
             // 
@@ -394,30 +394,31 @@
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(374, 94);
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label56.Location = new System.Drawing.Point(368, 93);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(63, 17);
+            this.label56.Size = new System.Drawing.Size(74, 20);
             this.label56.TabIndex = 13;
             this.label56.Text = "Religion";
+            this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.label57.Location = new System.Drawing.Point(30, 94);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(57, 17);
+            this.label57.Size = new System.Drawing.Size(63, 18);
             this.label57.TabIndex = 11;
             this.label57.Text = "Gender";
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(15, 40);
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.label58.Location = new System.Drawing.Point(13, 41);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(97, 17);
+            this.label58.Size = new System.Drawing.Size(106, 18);
             this.label58.TabIndex = 9;
             this.label58.Text = "Date Of Birth";
             // 
@@ -444,7 +445,17 @@
             this.groupBox1.Size = new System.Drawing.Size(654, 301);
             this.groupBox1.TabIndex = 139;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Foreign Address ";
+            this.groupBox1.Text = "Overseas Address ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.Location = new System.Drawing.Point(21, 260);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 17);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Country";
             // 
             // textBox1
             // 
@@ -565,7 +576,7 @@
             // ForeignSave
             // 
             this.ForeignSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ForeignSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeignSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.ForeignSave.ForeColor = System.Drawing.Color.Blue;
             this.ForeignSave.Location = new System.Drawing.Point(1020, 574);
             this.ForeignSave.Name = "ForeignSave";
@@ -578,13 +589,13 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(284, -1);
+            this.label11.Location = new System.Drawing.Point(283, 9);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(431, 31);
+            this.label11.Size = new System.Drawing.Size(493, 31);
             this.label11.TabIndex = 142;
-            this.label11.Text = "Foreign Person Details Information";
+            this.label11.Text = "Overseas Person Details Information";
             // 
             // openFileDialog1
             // 
@@ -700,16 +711,6 @@
             this.label70.Size = new System.Drawing.Size(72, 13);
             this.label70.TabIndex = 131;
             this.label70.Text = "Department";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label3.Location = new System.Drawing.Point(21, 260);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 17);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Country";
             // 
             // ForeignPerson
             // 

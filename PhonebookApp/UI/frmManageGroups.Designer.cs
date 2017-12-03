@@ -50,7 +50,7 @@
             this.groupBox1.Controls.Add(this.buttonJobTitle);
             this.groupBox1.Controls.Add(this.buttonEducationLevel);
             this.groupBox1.Controls.Add(this.Categorybutton);
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
             this.groupBox1.Location = new System.Drawing.Point(122, 100);
             this.groupBox1.Name = "groupBox1";
@@ -61,18 +61,20 @@
             // NewGroupCreationbutton
             // 
             this.NewGroupCreationbutton.BackColor = System.Drawing.Color.OrangeRed;
+            this.NewGroupCreationbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.NewGroupCreationbutton.ForeColor = System.Drawing.Color.White;
             this.NewGroupCreationbutton.Location = new System.Drawing.Point(54, 48);
             this.NewGroupCreationbutton.Name = "NewGroupCreationbutton";
             this.NewGroupCreationbutton.Size = new System.Drawing.Size(134, 54);
             this.NewGroupCreationbutton.TabIndex = 48;
-            this.NewGroupCreationbutton.Text = "New Group Creation";
+            this.NewGroupCreationbutton.Text = "New Group \r\nCreation";
             this.NewGroupCreationbutton.UseVisualStyleBackColor = false;
             this.NewGroupCreationbutton.Click += new System.EventHandler(this.NewGroupCreationbutton_Click);
             // 
             // buttonAgeGroup
             // 
             this.buttonAgeGroup.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonAgeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.buttonAgeGroup.ForeColor = System.Drawing.Color.White;
             this.buttonAgeGroup.Location = new System.Drawing.Point(54, 122);
             this.buttonAgeGroup.Name = "buttonAgeGroup";
@@ -85,6 +87,7 @@
             // buttonProfession
             // 
             this.buttonProfession.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonProfession.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.buttonProfession.ForeColor = System.Drawing.Color.White;
             this.buttonProfession.Location = new System.Drawing.Point(276, 122);
             this.buttonProfession.Name = "buttonProfession";
@@ -97,6 +100,7 @@
             // buttonSpecialization
             // 
             this.buttonSpecialization.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.buttonSpecialization.ForeColor = System.Drawing.Color.White;
             this.buttonSpecialization.Location = new System.Drawing.Point(276, 48);
             this.buttonSpecialization.Name = "buttonSpecialization";
@@ -109,6 +113,7 @@
             // buttonJobTitle
             // 
             this.buttonJobTitle.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonJobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.buttonJobTitle.ForeColor = System.Drawing.Color.White;
             this.buttonJobTitle.Location = new System.Drawing.Point(276, 200);
             this.buttonJobTitle.Name = "buttonJobTitle";
@@ -121,18 +126,20 @@
             // buttonEducationLevel
             // 
             this.buttonEducationLevel.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonEducationLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.buttonEducationLevel.ForeColor = System.Drawing.Color.White;
             this.buttonEducationLevel.Location = new System.Drawing.Point(54, 272);
             this.buttonEducationLevel.Name = "buttonEducationLevel";
             this.buttonEducationLevel.Size = new System.Drawing.Size(134, 54);
             this.buttonEducationLevel.TabIndex = 43;
-            this.buttonEducationLevel.Text = "Education Level";
+            this.buttonEducationLevel.Text = "Education \r\nLevel";
             this.buttonEducationLevel.UseVisualStyleBackColor = false;
             this.buttonEducationLevel.Click += new System.EventHandler(this.buttonEducationLevel_Click);
             // 
             // Categorybutton
             // 
             this.Categorybutton.BackColor = System.Drawing.Color.OrangeRed;
+            this.Categorybutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.Categorybutton.ForeColor = System.Drawing.Color.White;
             this.Categorybutton.Location = new System.Drawing.Point(54, 199);
             this.Categorybutton.Name = "Categorybutton";
@@ -145,11 +152,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(234, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(260, 33);
+            this.label1.Size = new System.Drawing.Size(289, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Group Management";
             // 

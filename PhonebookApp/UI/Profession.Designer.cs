@@ -39,16 +39,16 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.Location = new System.Drawing.Point(36, 32);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(149, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(169, 24);
             this.lblCategoryName.TabIndex = 4;
             this.lblCategoryName.Text = "Profession Name";
             // 
             // txtProfessionName
             // 
-            this.txtProfessionName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProfessionName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtProfessionName.Location = new System.Drawing.Point(22, 31);
             this.txtProfessionName.MaxLength = 90;
             this.txtProfessionName.Name = "txtProfessionName";
@@ -68,7 +68,7 @@
             // btnSaveProfession
             // 
             this.btnSaveProfession.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnSaveProfession.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveProfession.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveProfession.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveProfession.Location = new System.Drawing.Point(306, 186);
             this.btnSaveProfession.Name = "btnSaveProfession";

@@ -39,16 +39,16 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.Location = new System.Drawing.Point(40, 28);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(195, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(221, 24);
             this.lblCategoryName.TabIndex = 0;
             this.lblCategoryName.Text = "Education Level Name";
             // 
             // txtEducationLevel
             // 
-            this.txtEducationLevel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEducationLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtEducationLevel.Location = new System.Drawing.Point(22, 31);
             this.txtEducationLevel.MaxLength = 90;
             this.txtEducationLevel.Name = "txtEducationLevel";
@@ -68,7 +68,7 @@
             // btnSaveEducationLevel
             // 
             this.btnSaveEducationLevel.BackColor = System.Drawing.Color.Lime;
-            this.btnSaveEducationLevel.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveEducationLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveEducationLevel.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveEducationLevel.Location = new System.Drawing.Point(310, 182);
             this.btnSaveEducationLevel.Name = "btnSaveEducationLevel";

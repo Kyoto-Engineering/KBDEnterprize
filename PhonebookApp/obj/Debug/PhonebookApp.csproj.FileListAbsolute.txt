@@ -1,0 +1,130 @@
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe.config
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.pdb
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.Properties.Resources.resources
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csproj.GenerateResource.Cache
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.exe
+c:\users\kowsar\documents\visual studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.pdb
+C:\Users\Kowsar\Documents\Visual Studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCategory.resources
+C:\Users\Kowsar\Documents\Visual Studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.frm1.resources
+C:\Users\Kowsar\Documents\Visual Studio 2013\Projects\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csprojResolveAssemblyReference.cache
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe.config
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csprojResolveAssemblyReference.cache
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCategory.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.frm1.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.Properties.Resources.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csproj.GenerateResource.Cache
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmLogin.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmRegistration.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.MainUI.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonDetail.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmPersonUpdate.resources
+G:\ProjectUpdate 23-06-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.ChangePassword.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe.config
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csprojResolveAssemblyReference.cache
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.ChangePassword.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmLogin.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmRegistration.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCategory.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.frm1.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.Properties.Resources.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmPersonUpdate.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.MainUI.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonDetail.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -10-12-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csproj.GenerateResource.Cache
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe.config
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.exe
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\bin\Debug\PhonebookApp.pdb
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csprojResolveAssemblyReference.cache
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.ChangePassword.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmLogin.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmRegistration.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCategory.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.frm1.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.Properties.Resources.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmPersonUpdate.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.MainUI.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonDetail.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.csproj.GenerateResource.Cache
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.UserManagementUI.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCompany.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.AgeGroup.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.EducationLevel.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.Profession.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.Specialization.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmJobTitle.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonUpdateForm.resources
+G:\ProjectUpdate 23-06-2016\Phone Book App -04-03-2016\PhonebookApp\PhonebookApp\obj\Debug\PhonebookApp.UI.frmRelationShip.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Kyoto Business Directory.exe.config
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.csprojResolveAssemblyReference.cache
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.ChangePassword.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmLogin.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.frmRegistration.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.LogInUI.UserManagementUI.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ListOfContactByReligion.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ListOfContactbySpecialization.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.LOIforK8DSUI.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByGroupforA4.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByGroupforEidGreeting.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByGroupforEnvelop.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByBatch.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByDistrict.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByGroup.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportByMultiple.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.ReportViewer.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.AgeGroup.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.Batch.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.CompanyCreation.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.CompanyGrid.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.CompanySelectionGrid.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.EducationLevel.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.EmailSelectionGrid.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.ForeignCompanySelectionGrid.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.ForeignPerson.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.ForeignPersonSelectionUI.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmCategory.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.frm1.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Properties.Resources.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmUpdateCompany.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmIndustryCategory.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmJobTitle.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmManageGroups.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmNewEntry.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmPersonUpdate.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmRelationShip.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.frmViewAndReport.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.Group.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.GroupCreation.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.MainUI.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonDetail.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.PersonUnderACompany.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.Pod.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.Profession.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.RemoveFromGroup.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.ReportUI.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.ReturnMail.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.Specialization.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.UI.UpdatePersonInfo.resources
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.csproj.GenerateResource.Cache
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Kyoto Business Directory.exe.manifest
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Kyoto Business Directory.application
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Kyoto Business Directory.exe
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Kyoto Business Directory.pdb
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\Mono.Security.dll
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\QRCoder.dll
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\bin\Debug\UnityEngine.dll
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\Kyoto Business Directory.exe.manifest
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\Kyoto Business Directory.application
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\Kyoto Business Directory.exe
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\Kyoto Business Directory.pdb
+E:\Tanmoy\Visual Studio\KBD\PhonebookApp\obj\Debug\PhonebookApp.Reports.LOIforAutomatedTrafficLightUI.resources

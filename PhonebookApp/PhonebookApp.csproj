@@ -1,0 +1,1195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CB781A2-3287-4879-BDF3-060AA9D3A579}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhonebookApp</RootNamespace>
+    <AssemblyName>Kyoto Business Directory</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\kyotoserver\Share\Software Apps\Kyoto Business Directory\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Kyoto Business Directory</ProductName>
+    <PublisherName>IT Department, Kyoto Engineering &amp; Automation Ltd.</PublisherName>
+    <MinimumRequiredVersion>1.0.0.31</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>66</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>513D93DB87D5D763838AECAAB61DB8EB2FA9D410</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PhonebookApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>business_directory_DUm_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mono.Security.3.2.3.0\lib\net45\Mono.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="QRCoder, Version=1.2.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.2.7\lib\net40\QRCoder.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.2.7\lib\net40\UnityEngine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\Person.cs" />
+    <Compile Include="DAL\User.cs" />
+    <Compile Include="DAO\AddressReportDataSet.cs">
+      <DependentUpon>AddressReportDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\AddressReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AddressReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\BarCode.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarCode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DbGateway\ConnectionGateway.cs" />
+    <Compile Include="DbGateway\ConnectionString.cs" />
+    <Compile Include="Gateway\UserGateway.cs" />
+    <Compile Include="LogInUI\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInUI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInUI\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInUI\frmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInUI\frmRegistration.Designer.cs">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInUI\UserManagementUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInUI\UserManagementUI.Designer.cs">
+      <DependentUpon>UserManagementUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\UserManager.cs" />
+    <Compile Include="Models\CompanyAddress.cs" />
+    <Compile Include="Models\InputBox.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\PersonAddress.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\BarCode.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BarCode.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BatchReportnCopy.cs">
+      <DependentUpon>BatchReportnCopy.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\BatchReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BatchReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BatchReportL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BatchReportL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CompanyDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompanyDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Document.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Document.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetings.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetings.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EnvelopForResidentialAddGroup.cs">
+      <DependentUpon>EnvelopForResidentialAddGroup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\EnvelopForWorkingAddGroup.cs">
+      <DependentUpon>EnvelopForWorkingAddGroup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EnvelopSizeForeignPersonalAddressDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnvelopSizeForeignPersonalAddressDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ListofAllContactsBySpecialization.cs">
+      <DependentUpon>ListofAllContactsBySpecialization.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\ListofAllContactsByReligion.cs">
+      <DependentUpon>ListofAllContactsByReligion.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\ListOfContactByReligion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ListOfContactByReligion.Designer.cs">
+      <DependentUpon>ListOfContactByReligion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ListOfContactbySpecialization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ListOfContactbySpecialization.Designer.cs">
+      <DependentUpon>ListOfContactbySpecialization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\LOIforAutomatedTrafficLightUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\LOIforAutomatedTrafficLightUI.Designer.cs">
+      <DependentUpon>LOIforAutomatedTrafficLightUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\LOIforK8DSUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\LOIforK8DSUI.Designer.cs">
+      <DependentUpon>LOIforK8DSUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\LOIforK8DS_2.cs" />
+    <Compile Include="Reports\ReportByGroupforA4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByGroupforA4.Designer.cs">
+      <DependentUpon>ReportByGroupforA4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportByGroupforEidGreeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByGroupforEidGreeting.Designer.cs">
+      <DependentUpon>ReportByGroupforEidGreeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportByGroupforEnvelop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByGroupforEnvelop.Designer.cs">
+      <DependentUpon>ReportByGroupforEnvelop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForResidentialAdd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForResidentialAdd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForResidentialAddDist.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForResidentialAddDist.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForResidentialAddGroup.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForResidentialAddGroup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForResidentialAddRel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForResidentialAddRel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SmallGreetingsForWorkingAddCopy.cs">
+      <DependentUpon>SmallGreetingsForWorkingAddCopy.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForWorkingAdd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForWorkingAdd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForWorkingAddDist.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForWorkingAddDist.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForWorkingAddGroup.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForWorkingAddGroup.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EidGreetingsForWorkingAddRel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EidGreetingsForWorkingAddRel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\GreetingCardsForResidentialAdd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GreetingCardsForResidentialAdd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\GreetingCardsForWorkingAdd.cs">
+      <DependentUpon>GreetingCardsForWorkingAdd.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\GreetingCards.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GreetingCards.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ListofAllCompanies.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListofAllCompanies.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ListofAllContacts.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListofAllContacts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\LOI.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LOI.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PersonsWithCompany.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonsWithCompany.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByBatch.Designer.cs">
+      <DependentUpon>ReportByBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportByDistrict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByDistrict.Designer.cs">
+      <DependentUpon>ReportByDistrict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportByGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByGroup.designer.cs">
+      <DependentUpon>ReportByGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportByMultiple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportByMultiple.designer.cs">
+      <DependentUpon>ReportByMultiple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportViewer.Designer.cs">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\TestReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TestReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\AgeGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AgeGroup.Designer.cs">
+      <DependentUpon>AgeGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Batch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Batch.Designer.cs">
+      <DependentUpon>Batch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Company.cs" />
+    <Compile Include="UI\CompanyCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CompanyCreation.designer.cs">
+      <DependentUpon>CompanyCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CompanyGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CompanyGrid.Designer.cs">
+      <DependentUpon>CompanyGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CompanySelectionGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CompanySelectionGrid.Designer.cs">
+      <DependentUpon>CompanySelectionGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EducationLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EducationLevel.Designer.cs">
+      <DependentUpon>EducationLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EmailSelectionGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EmailSelectionGrid.designer.cs">
+      <DependentUpon>EmailSelectionGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ForeignCompanySelectionGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ForeignCompanySelectionGrid.Designer.cs">
+      <DependentUpon>ForeignCompanySelectionGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ForeignPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ForeignPerson.Designer.cs">
+      <DependentUpon>ForeignPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ForeignPersonSelectionUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ForeignPersonSelectionUI.Designer.cs">
+      <DependentUpon>ForeignPersonSelectionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmCategory.Designer.cs">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\frmUpdateCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmUpdateCompany.Designer.cs">
+      <DependentUpon>frmUpdateCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmIndustryCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmIndustryCategory.designer.cs">
+      <DependentUpon>frmIndustryCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmJobTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmJobTitle.Designer.cs">
+      <DependentUpon>frmJobTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmManageGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmManageGroups.Designer.cs">
+      <DependentUpon>frmManageGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmNewEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmNewEntry.Designer.cs">
+      <DependentUpon>frmNewEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmPersonUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmPersonUpdate.Designer.cs">
+      <DependentUpon>frmPersonUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmRelationShip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmRelationShip.Designer.cs">
+      <DependentUpon>frmRelationShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmViewAndReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmViewAndReport.Designer.cs">
+      <DependentUpon>frmViewAndReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Group.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Group.Designer.cs">
+      <DependentUpon>Group.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\GroupCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\GroupCreation.Designer.cs">
+      <DependentUpon>GroupCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainUI.Designer.cs">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PersonDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PersonDetail.Designer.cs">
+      <DependentUpon>PersonDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PersonUnderACompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PersonUnderACompany.Designer.cs">
+      <DependentUpon>PersonUnderACompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pod.Designer.cs">
+      <DependentUpon>Pod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Profession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Profession.Designer.cs">
+      <DependentUpon>Profession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RemoveFromGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RemoveFromGroup.Designer.cs">
+      <DependentUpon>RemoveFromGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ReportUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ReportUI.Designer.cs">
+      <DependentUpon>ReportUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ReturnMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ReturnMail.Designer.cs">
+      <DependentUpon>ReturnMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Specialization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Specialization.Designer.cs">
+      <DependentUpon>Specialization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UpdatePersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UpdatePersonInfo.Designer.cs">
+      <DependentUpon>UpdatePersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterMarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="LogInUI\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInUI\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInUI\frmRegistration.resx">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInUI\UserManagementUI.resx">
+      <DependentUpon>UserManagementUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BarCode.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BarCode.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BatchReportnCopy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BatchReportnCopy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BatchReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BatchReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BatchReportL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BatchReportL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CompanyDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CompanyDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Document.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Document.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetings.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetings.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EnvelopForResidentialAddGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EnvelopForResidentialAddGroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EnvelopForWorkingAddGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EnvelopForWorkingAddGroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EnvelopSizeForeignPersonalAddressDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EnvelopSizeForeignPersonalAddressDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListofAllContactsBySpecialization.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListofAllContactsBySpecialization.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListofAllContactsByReligion.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListofAllContactsByReligion.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListOfContactByReligion.resx">
+      <DependentUpon>ListOfContactByReligion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListOfContactbySpecialization.resx">
+      <DependentUpon>ListOfContactbySpecialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOIforAutomatedTrafficLightUI.resx">
+      <DependentUpon>LOIforAutomatedTrafficLightUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOIforK8DSUI.resx">
+      <DependentUpon>LOIforK8DSUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByGroupforA4.resx">
+      <DependentUpon>ReportByGroupforA4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByGroupforEidGreeting.resx">
+      <DependentUpon>ReportByGroupforEidGreeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByGroupforEnvelop.resx">
+      <DependentUpon>ReportByGroupforEnvelop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForResidentialAdd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForResidentialAdd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForResidentialAddDist.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForResidentialAddDist.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForResidentialAddGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForResidentialAddGroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForResidentialAddRel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForResidentialAddRel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SmallGreetingsForWorkingAddCopy.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SmallGreetingsForWorkingAddCopy.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForWorkingAdd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForWorkingAdd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForWorkingAddDist.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForWorkingAddDist.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForWorkingAddGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForWorkingAddGroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EidGreetingsForWorkingAddRel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EidGreetingsForWorkingAddRel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GreetingCardsForResidentialAdd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GreetingCardsForResidentialAdd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GreetingCardsForWorkingAdd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GreetingCardsForWorkingAdd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GreetingCards.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GreetingCards.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListofAllCompanies.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListofAllCompanies.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListofAllContacts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListofAllContacts.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOI.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LOI.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PersonsWithCompany.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PersonsWithCompany.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByBatch.resx">
+      <DependentUpon>ReportByBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByDistrict.resx">
+      <DependentUpon>ReportByDistrict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByGroup.resx">
+      <DependentUpon>ReportByGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportByMultiple.resx">
+      <DependentUpon>ReportByMultiple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportViewer.resx">
+      <DependentUpon>ReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TestReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TestReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AgeGroup.resx">
+      <DependentUpon>AgeGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Batch.resx">
+      <DependentUpon>Batch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CompanyCreation.resx">
+      <DependentUpon>CompanyCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CompanyGrid.resx">
+      <DependentUpon>CompanyGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CompanySelectionGrid.resx">
+      <DependentUpon>CompanySelectionGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EducationLevel.resx">
+      <DependentUpon>EducationLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EmailSelectionGrid.resx">
+      <DependentUpon>EmailSelectionGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ForeignCompanySelectionGrid.resx">
+      <DependentUpon>ForeignCompanySelectionGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ForeignPerson.resx">
+      <DependentUpon>ForeignPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ForeignPersonSelectionUI.resx">
+      <DependentUpon>ForeignPersonSelectionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmCategory.resx">
+      <DependentUpon>frmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmUpdateCompany.resx">
+      <DependentUpon>frmUpdateCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmIndustryCategory.resx">
+      <DependentUpon>frmIndustryCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmJobTitle.resx">
+      <DependentUpon>frmJobTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmManageGroups.resx">
+      <DependentUpon>frmManageGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmNewEntry.resx">
+      <DependentUpon>frmNewEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmPersonUpdate.resx">
+      <DependentUpon>frmPersonUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmRelationShip.resx">
+      <DependentUpon>frmRelationShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmViewAndReport.resx">
+      <DependentUpon>frmViewAndReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Group.resx">
+      <DependentUpon>Group.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\GroupCreation.resx">
+      <DependentUpon>GroupCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PersonDetail.resx">
+      <DependentUpon>PersonDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PersonUnderACompany.resx">
+      <DependentUpon>PersonUnderACompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pod.resx">
+      <DependentUpon>Pod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Profession.resx">
+      <DependentUpon>Profession.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RemoveFromGroup.resx">
+      <DependentUpon>RemoveFromGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ReportUI.resx">
+      <DependentUpon>ReportUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ReturnMail.resx">
+      <DependentUpon>ReturnMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Specialization.resx">
+      <DependentUpon>Specialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UpdatePersonInfo.resx">
+      <DependentUpon>UpdatePersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DAO\AddressReportDataSet.xsc">
+      <DependentUpon>AddressReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DAO\AddressReportDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AddressReportDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAO\AddressReportDataSet.xss">
+      <DependentUpon>AddressReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DAO\BarCode.xsc">
+      <DependentUpon>BarCode.xsd</DependentUpon>
+    </None>
+    <None Include="DAO\BarCode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BarCode.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAO\BarCode.xss">
+      <DependentUpon>BarCode.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PhonebookApp_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteyglossyrectanglebuttonmd.png" />
+    <None Include="Resources\Logowithoutnamarked.png" />
+    <None Include="Resources\user_up.png" />
+    <None Include="Resources\Kyoto Google Plus  Profile.png" />
+    <Content Include="business_directory_DUm_icon.ico" />
+    <Content Include="business_directory_p6Q_icon.ico" />
+    <None Include="Resources\12.jpg" />
+    <None Include="Resources\BusinessDirectory.png" />
+    <None Include="Resources\imgcom.jpg" />
+    <None Include="Resources\Business Directory Plus.png" />
+    <Content Include="business_directory_plus_53X_icon.ico" />
+    <None Include="Resources\BusinessDirectoryPlus.png" />
+    <None Include="Resources\BusinessDirectoryedited.png" />
+    <None Include="Resources\banner.png" />
+    <Content Include="Resources\business_directory_DUm_icon.ico" />
+    <Content Include="Resources\business_directory_p6Q_icon.ico" />
+    <Content Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="business_directory_plus_53X_icon.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Mono.Security">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="QRCoder">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="UnityEngine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

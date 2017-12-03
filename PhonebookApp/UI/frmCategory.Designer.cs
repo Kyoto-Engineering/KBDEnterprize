@@ -39,16 +39,16 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.Location = new System.Drawing.Point(55, 17);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(139, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(154, 24);
             this.lblCategoryName.TabIndex = 0;
             this.lblCategoryName.Text = "Category Name";
             // 
             // txtCategoryName
             // 
-            this.txtCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtCategoryName.Location = new System.Drawing.Point(22, 31);
             this.txtCategoryName.MaxLength = 90;
             this.txtCategoryName.Name = "txtCategoryName";
@@ -59,7 +59,7 @@
             // btnSaveCategory
             // 
             this.btnSaveCategory.BackColor = System.Drawing.Color.Lime;
-            this.btnSaveCategory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveCategory.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveCategory.Location = new System.Drawing.Point(325, 171);
             this.btnSaveCategory.Name = "btnSaveCategory";

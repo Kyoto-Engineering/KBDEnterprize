@@ -39,17 +39,17 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblCategoryName.ForeColor = System.Drawing.Color.Black;
             this.lblCategoryName.Location = new System.Drawing.Point(21, 16);
             this.lblCategoryName.Name = "lblCategoryName";
-            this.lblCategoryName.Size = new System.Drawing.Size(112, 22);
+            this.lblCategoryName.Size = new System.Drawing.Size(125, 24);
             this.lblCategoryName.TabIndex = 0;
             this.lblCategoryName.Text = "Relationship";
             // 
             // txtRelationship
             // 
-            this.txtRelationship.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRelationship.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.txtRelationship.Location = new System.Drawing.Point(22, 31);
             this.txtRelationship.MaxLength = 90;
             this.txtRelationship.Name = "txtRelationship";
@@ -69,7 +69,7 @@
             // btnSaveRelationship
             // 
             this.btnSaveRelationship.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnSaveRelationship.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveRelationship.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveRelationship.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveRelationship.Location = new System.Drawing.Point(281, 171);
             this.btnSaveRelationship.Name = "btnSaveRelationship";

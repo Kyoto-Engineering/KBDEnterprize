@@ -47,17 +47,17 @@
             // ForeignCompanySelectionForm
             // 
             this.ForeignCompanySelectionForm.AutoSize = true;
-            this.ForeignCompanySelectionForm.Font = new System.Drawing.Font("Times New Roman", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeignCompanySelectionForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
             this.ForeignCompanySelectionForm.Location = new System.Drawing.Point(167, 28);
             this.ForeignCompanySelectionForm.Name = "ForeignCompanySelectionForm";
-            this.ForeignCompanySelectionForm.Size = new System.Drawing.Size(403, 31);
+            this.ForeignCompanySelectionForm.Size = new System.Drawing.Size(448, 31);
             this.ForeignCompanySelectionForm.TabIndex = 3;
             this.ForeignCompanySelectionForm.Text = "Foreign Company Selection Form";
             // 
             // SearchByCompanyNameGroupBox
             // 
             this.SearchByCompanyNameGroupBox.Controls.Add(this.textBox1);
-            this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.OrangeRed;
             this.SearchByCompanyNameGroupBox.Location = new System.Drawing.Point(17, 100);
             this.SearchByCompanyNameGroupBox.Name = "SearchByCompanyNameGroupBox";

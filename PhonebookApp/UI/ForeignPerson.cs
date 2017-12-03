@@ -506,6 +506,11 @@ namespace PhonebookApp.UI
 
         }
 
+        private void label56_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 

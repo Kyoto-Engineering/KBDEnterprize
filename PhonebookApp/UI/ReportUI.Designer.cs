@@ -152,7 +152,7 @@
             this.PerWithCompanyButton.BackColor = System.Drawing.Color.CadetBlue;
             this.PerWithCompanyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PerWithCompanyButton.ForeColor = System.Drawing.Color.White;
-            this.PerWithCompanyButton.Location = new System.Drawing.Point(563, 51);
+            this.PerWithCompanyButton.Location = new System.Drawing.Point(571, 62);
             this.PerWithCompanyButton.Name = "PerWithCompanyButton";
             this.PerWithCompanyButton.Size = new System.Drawing.Size(23, 23);
             this.PerWithCompanyButton.TabIndex = 9;
@@ -166,7 +166,7 @@
             this.CompanyWithEmailButton.BackColor = System.Drawing.Color.CadetBlue;
             this.CompanyWithEmailButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompanyWithEmailButton.ForeColor = System.Drawing.Color.White;
-            this.CompanyWithEmailButton.Location = new System.Drawing.Point(563, 19);
+            this.CompanyWithEmailButton.Location = new System.Drawing.Point(565, 32);
             this.CompanyWithEmailButton.Name = "CompanyWithEmailButton";
             this.CompanyWithEmailButton.Size = new System.Drawing.Size(33, 26);
             this.CompanyWithEmailButton.TabIndex = 8;
@@ -184,7 +184,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 65);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Batch Report";
+            this.button2.Text = "Print Batch";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -240,13 +240,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(275, 9);
+            this.label1.Location = new System.Drawing.Point(242, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 33);
+            this.label1.Size = new System.Drawing.Size(216, 33);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Reports";
+            this.label1.Text = "View and Print";
             // 
             // ReportUI
             // 

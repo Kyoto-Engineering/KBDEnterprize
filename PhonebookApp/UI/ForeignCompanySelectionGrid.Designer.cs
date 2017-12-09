@@ -58,7 +58,7 @@
             // 
             this.SearchByCompanyNameGroupBox.Controls.Add(this.textBox1);
             this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.OrangeRed;
+            this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.Black;
             this.SearchByCompanyNameGroupBox.Location = new System.Drawing.Point(17, 100);
             this.SearchByCompanyNameGroupBox.Name = "SearchByCompanyNameGroupBox";
             this.SearchByCompanyNameGroupBox.Size = new System.Drawing.Size(369, 63);
@@ -77,6 +77,7 @@
             // NewComCreationButton
             // 
             this.NewComCreationButton.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.NewComCreationButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.NewComCreationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewComCreationButton.Location = new System.Drawing.Point(567, 109);
             this.NewComCreationButton.Name = "NewComCreationButton";
@@ -89,6 +90,7 @@
             // CompanySelectiongroupBox
             // 
             this.CompanySelectiongroupBox.Controls.Add(this.dataGridView1);
+            this.CompanySelectiongroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.CompanySelectiongroupBox.Location = new System.Drawing.Point(5, 202);
             this.CompanySelectiongroupBox.Name = "CompanySelectiongroupBox";
             this.CompanySelectiongroupBox.Size = new System.Drawing.Size(775, 260);
@@ -101,7 +103,7 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.CadetBlue;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -144,7 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(813, 474);
             this.Controls.Add(this.CompanySelectiongroupBox);
             this.Controls.Add(this.NewComCreationButton);

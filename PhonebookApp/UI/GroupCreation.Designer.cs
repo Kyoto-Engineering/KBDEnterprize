@@ -62,8 +62,9 @@
             // savebutton
             // 
             this.savebutton.BackColor = System.Drawing.Color.CadetBlue;
+            this.savebutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.savebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.savebutton.ForeColor = System.Drawing.Color.Black;
+            this.savebutton.ForeColor = System.Drawing.Color.Blue;
             this.savebutton.Location = new System.Drawing.Point(409, 360);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(104, 66);
@@ -106,7 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(341, 24);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(228, 33);
@@ -127,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RosyBrown;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(822, 491);
             this.Controls.Add(this.purposetextBox);
             this.Controls.Add(this.label3);

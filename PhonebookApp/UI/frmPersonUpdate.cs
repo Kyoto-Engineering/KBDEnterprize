@@ -602,5 +602,10 @@ namespace PhonebookApp.UI
         {
 
         }
+
+        private void textNickName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

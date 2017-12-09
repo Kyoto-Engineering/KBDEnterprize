@@ -39,9 +39,11 @@
             // getButton
             // 
             this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.getButton.Location = new System.Drawing.Point(211, 186);
+            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.getButton.ForeColor = System.Drawing.Color.Blue;
+            this.getButton.Location = new System.Drawing.Point(210, 199);
             this.getButton.Name = "getButton";
-            this.getButton.Size = new System.Drawing.Size(74, 23);
+            this.getButton.Size = new System.Drawing.Size(108, 43);
             this.getButton.TabIndex = 0;
             this.getButton.Text = "GET";
             this.getButton.UseVisualStyleBackColor = true;
@@ -50,28 +52,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(140, 25);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(56, 73);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.Size = new System.Drawing.Size(109, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Batch Id   :";
             // 
             // batchIdCombobox
             // 
+            this.batchIdCombobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.batchIdCombobox.FormattingEnabled = true;
-            this.batchIdCombobox.Location = new System.Drawing.Point(198, 23);
+            this.batchIdCombobox.Location = new System.Drawing.Point(171, 70);
             this.batchIdCombobox.Name = "batchIdCombobox";
-            this.batchIdCombobox.Size = new System.Drawing.Size(121, 21);
+            this.batchIdCombobox.Size = new System.Drawing.Size(222, 32);
             this.batchIdCombobox.TabIndex = 2;
             this.batchIdCombobox.SelectedIndexChanged += new System.EventHandler(this.batchIdCombobox_SelectedIndexChanged);
             // 
             // PortraitRadioButton
             // 
             this.PortraitRadioButton.AutoSize = true;
-            this.PortraitRadioButton.Location = new System.Drawing.Point(198, 60);
+            this.PortraitRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.PortraitRadioButton.Location = new System.Drawing.Point(144, 118);
             this.PortraitRadioButton.Name = "PortraitRadioButton";
-            this.PortraitRadioButton.Size = new System.Drawing.Size(139, 17);
+            this.PortraitRadioButton.Size = new System.Drawing.Size(249, 28);
             this.PortraitRadioButton.TabIndex = 3;
             this.PortraitRadioButton.TabStop = true;
             this.PortraitRadioButton.Text = "Batch Report for Portrait";
@@ -81,9 +85,10 @@
             // LandscapeRadioButton
             // 
             this.LandscapeRadioButton.AutoSize = true;
-            this.LandscapeRadioButton.Location = new System.Drawing.Point(198, 93);
+            this.LandscapeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.LandscapeRadioButton.Location = new System.Drawing.Point(123, 152);
             this.LandscapeRadioButton.Name = "LandscapeRadioButton";
-            this.LandscapeRadioButton.Size = new System.Drawing.Size(159, 17);
+            this.LandscapeRadioButton.Size = new System.Drawing.Size(286, 28);
             this.LandscapeRadioButton.TabIndex = 4;
             this.LandscapeRadioButton.TabStop = true;
             this.LandscapeRadioButton.Text = "Batch Report for Landscape";
@@ -93,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(503, 284);
             this.Controls.Add(this.LandscapeRadioButton);
             this.Controls.Add(this.PortraitRadioButton);

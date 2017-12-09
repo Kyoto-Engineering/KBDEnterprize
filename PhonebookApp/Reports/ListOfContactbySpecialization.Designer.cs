@@ -37,9 +37,10 @@
             // workingRadioButton
             // 
             this.workingRadioButton.AutoSize = true;
-            this.workingRadioButton.Location = new System.Drawing.Point(219, 118);
+            this.workingRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.workingRadioButton.Location = new System.Drawing.Point(180, 132);
             this.workingRadioButton.Name = "workingRadioButton";
-            this.workingRadioButton.Size = new System.Drawing.Size(106, 17);
+            this.workingRadioButton.Size = new System.Drawing.Size(188, 28);
             this.workingRadioButton.TabIndex = 9;
             this.workingRadioButton.TabStop = true;
             this.workingRadioButton.Text = "Working Address";
@@ -48,9 +49,10 @@
             // getButton
             // 
             this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.getButton.Location = new System.Drawing.Point(234, 234);
+            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.getButton.Location = new System.Drawing.Point(199, 182);
             this.getButton.Name = "getButton";
-            this.getButton.Size = new System.Drawing.Size(75, 23);
+            this.getButton.Size = new System.Drawing.Size(142, 41);
             this.getButton.TabIndex = 8;
             this.getButton.Text = "GET";
             this.getButton.UseVisualStyleBackColor = true;
@@ -59,19 +61,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(74, 71);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(12, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 17);
+            this.label2.Size = new System.Drawing.Size(139, 24);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Specialization     :";
+            this.label2.Text = "Specialization";
             // 
             // speccombo
             // 
+            this.speccombo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.speccombo.FormattingEnabled = true;
-            this.speccombo.Location = new System.Drawing.Point(219, 71);
+            this.speccombo.Location = new System.Drawing.Point(157, 71);
             this.speccombo.Name = "speccombo";
-            this.speccombo.Size = new System.Drawing.Size(121, 21);
+            this.speccombo.Size = new System.Drawing.Size(244, 32);
             this.speccombo.TabIndex = 6;
             this.speccombo.SelectedIndexChanged += new System.EventHandler(this.speccombo_SelectedIndexChanged);
             // 
@@ -79,7 +82,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 361);
+            this.BackColor = System.Drawing.Color.LightBlue;
+            this.ClientSize = new System.Drawing.Size(530, 304);
             this.Controls.Add(this.workingRadioButton);
             this.Controls.Add(this.getButton);
             this.Controls.Add(this.label2);

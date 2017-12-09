@@ -42,7 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(222, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(480, 31);
@@ -61,7 +61,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(42, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(240, 20);
@@ -72,7 +72,7 @@
             // 
             this.groupBox2.Controls.Add(this.SearchByPersonIdtextBox);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox2.ForeColor = System.Drawing.Color.Blue;
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(398, 85);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(240, 59);
@@ -90,7 +90,8 @@
             // 
             // CompanySelectiongroupBox
             // 
-            this.CompanySelectiongroupBox.ForeColor = System.Drawing.Color.Blue;
+            this.CompanySelectiongroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.CompanySelectiongroupBox.ForeColor = System.Drawing.Color.Black;
             this.CompanySelectiongroupBox.Location = new System.Drawing.Point(25, 194);
             this.CompanySelectiongroupBox.Name = "CompanySelectiongroupBox";
             this.CompanySelectiongroupBox.Size = new System.Drawing.Size(910, 256);
@@ -102,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(958, 474);
             this.Controls.Add(this.CompanySelectiongroupBox);
             this.Controls.Add(this.groupBox2);

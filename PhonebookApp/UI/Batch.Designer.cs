@@ -96,8 +96,9 @@
             // removeButton
             // 
             this.removeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.removeButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.removeButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.removeButton.ForeColor = System.Drawing.Color.Blue;
             this.removeButton.Location = new System.Drawing.Point(363, 211);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(84, 47);
@@ -132,8 +133,9 @@
             // submitButton
             // 
             this.submitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.submitButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.submitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.submitButton.ForeColor = System.Drawing.Color.Fuchsia;
+            this.submitButton.ForeColor = System.Drawing.Color.Blue;
             this.submitButton.Location = new System.Drawing.Point(363, 267);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(84, 45);
@@ -145,8 +147,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button1.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.Yellow;
+            this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(363, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 49);
@@ -248,7 +251,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Green;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(220, 17);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(303, 33);

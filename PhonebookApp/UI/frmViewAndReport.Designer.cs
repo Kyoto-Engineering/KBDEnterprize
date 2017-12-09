@@ -44,20 +44,21 @@
             this.groupBox1.Controls.Add(this.ViewCompanybutton);
             this.groupBox1.Controls.Add(this.reportButton);
             this.groupBox1.Controls.Add(this.personDetailsButton);
-            this.groupBox1.Location = new System.Drawing.Point(142, 115);
+            this.groupBox1.Location = new System.Drawing.Point(58, 93);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(423, 269);
+            this.groupBox1.Size = new System.Drawing.Size(576, 266);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
             // PersonUnderACompanyButton
             // 
             this.PersonUnderACompanyButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.PersonUnderACompanyButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.PersonUnderACompanyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.PersonUnderACompanyButton.ForeColor = System.Drawing.Color.Blue;
-            this.PersonUnderACompanyButton.Location = new System.Drawing.Point(231, 35);
+            this.PersonUnderACompanyButton.Location = new System.Drawing.Point(325, 46);
             this.PersonUnderACompanyButton.Name = "PersonUnderACompanyButton";
-            this.PersonUnderACompanyButton.Size = new System.Drawing.Size(134, 70);
+            this.PersonUnderACompanyButton.Size = new System.Drawing.Size(162, 70);
             this.PersonUnderACompanyButton.TabIndex = 51;
             this.PersonUnderACompanyButton.Text = "Person Under A \r\nCompany";
             this.PersonUnderACompanyButton.UseVisualStyleBackColor = false;
@@ -66,11 +67,12 @@
             // ViewCompanybutton
             // 
             this.ViewCompanybutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.ViewCompanybutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.ViewCompanybutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.ViewCompanybutton.ForeColor = System.Drawing.Color.Blue;
-            this.ViewCompanybutton.Location = new System.Drawing.Point(33, 144);
+            this.ViewCompanybutton.Location = new System.Drawing.Point(72, 155);
             this.ViewCompanybutton.Name = "ViewCompanybutton";
-            this.ViewCompanybutton.Size = new System.Drawing.Size(134, 70);
+            this.ViewCompanybutton.Size = new System.Drawing.Size(181, 70);
             this.ViewCompanybutton.TabIndex = 50;
             this.ViewCompanybutton.Text = "View And Edit \r\nCompany";
             this.ViewCompanybutton.UseVisualStyleBackColor = false;
@@ -79,11 +81,12 @@
             // reportButton
             // 
             this.reportButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.reportButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.reportButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.reportButton.ForeColor = System.Drawing.Color.Blue;
-            this.reportButton.Location = new System.Drawing.Point(231, 144);
+            this.reportButton.Location = new System.Drawing.Point(325, 155);
             this.reportButton.Name = "reportButton";
-            this.reportButton.Size = new System.Drawing.Size(134, 70);
+            this.reportButton.Size = new System.Drawing.Size(162, 70);
             this.reportButton.TabIndex = 49;
             this.reportButton.Text = "Print";
             this.reportButton.UseVisualStyleBackColor = false;
@@ -92,11 +95,12 @@
             // personDetailsButton
             // 
             this.personDetailsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.personDetailsButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.personDetailsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
             this.personDetailsButton.ForeColor = System.Drawing.Color.Blue;
-            this.personDetailsButton.Location = new System.Drawing.Point(33, 35);
+            this.personDetailsButton.Location = new System.Drawing.Point(72, 46);
             this.personDetailsButton.Name = "personDetailsButton";
-            this.personDetailsButton.Size = new System.Drawing.Size(134, 70);
+            this.personDetailsButton.Size = new System.Drawing.Size(181, 70);
             this.personDetailsButton.TabIndex = 48;
             this.personDetailsButton.Text = "View And Edit Contact";
             this.personDetailsButton.UseVisualStyleBackColor = false;
@@ -106,18 +110,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(232, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 33);
+            this.label1.Size = new System.Drawing.Size(219, 33);
             this.label1.TabIndex = 1;
-            this.label1.Text = "View And Report";
+            this.label1.Text = "View And Print";
             // 
             // frmViewAndReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(687, 438);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);

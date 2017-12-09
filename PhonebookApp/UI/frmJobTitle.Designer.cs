@@ -40,7 +40,7 @@
             // 
             this.lblCategoryName.AutoSize = true;
             this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblCategoryName.ForeColor = System.Drawing.Color.Blue;
+            this.lblCategoryName.ForeColor = System.Drawing.Color.Black;
             this.lblCategoryName.Location = new System.Drawing.Point(31, 22);
             this.lblCategoryName.Name = "lblCategoryName";
             this.lblCategoryName.Size = new System.Drawing.Size(206, 24);
@@ -69,6 +69,7 @@
             // btnSaveJobTitle
             // 
             this.btnSaveJobTitle.BackColor = System.Drawing.Color.Lime;
+            this.btnSaveJobTitle.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.btnSaveJobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveJobTitle.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveJobTitle.Location = new System.Drawing.Point(310, 168);
@@ -83,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(506, 276);
             this.Controls.Add(this.lblCategoryName);
             this.Controls.Add(this.groupBox1);

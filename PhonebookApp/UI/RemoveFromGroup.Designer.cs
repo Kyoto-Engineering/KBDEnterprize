@@ -75,7 +75,7 @@
             // 
             this.groupNamelabel.AutoSize = true;
             this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.groupNamelabel.ForeColor = System.Drawing.Color.OrangeRed;
+            this.groupNamelabel.ForeColor = System.Drawing.Color.Navy;
             this.groupNamelabel.Location = new System.Drawing.Point(4, 11);
             this.groupNamelabel.Name = "groupNamelabel";
             this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
@@ -86,7 +86,7 @@
             // 
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
-            this.dataGridView.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -191,8 +191,9 @@
             // removeButton
             // 
             this.removeButton.BackColor = System.Drawing.Color.SandyBrown;
+            this.removeButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.removeButton.ForeColor = System.Drawing.Color.Black;
+            this.removeButton.ForeColor = System.Drawing.Color.Blue;
             this.removeButton.Location = new System.Drawing.Point(177, 208);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(113, 56);
@@ -205,7 +206,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1129, 519);
             this.Controls.Add(this.removeButton);
             this.Controls.Add(this.dataGridView);

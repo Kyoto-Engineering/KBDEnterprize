@@ -68,6 +68,7 @@
             // btnSaveEducationLevel
             // 
             this.btnSaveEducationLevel.BackColor = System.Drawing.Color.Lime;
+            this.btnSaveEducationLevel.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.btnSaveEducationLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveEducationLevel.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveEducationLevel.Location = new System.Drawing.Point(310, 182);
@@ -82,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(487, 307);
             this.Controls.Add(this.lblCategoryName);
             this.Controls.Add(this.groupBox1);

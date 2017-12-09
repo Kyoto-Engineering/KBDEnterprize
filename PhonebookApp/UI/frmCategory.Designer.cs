@@ -59,6 +59,7 @@
             // btnSaveCategory
             // 
             this.btnSaveCategory.BackColor = System.Drawing.Color.Lime;
+            this.btnSaveCategory.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.btnSaveCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveCategory.ForeColor = System.Drawing.Color.Blue;
             this.btnSaveCategory.Location = new System.Drawing.Point(325, 171);
@@ -82,7 +83,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(511, 283);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblCategoryName);

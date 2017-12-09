@@ -69,11 +69,12 @@
             // btnSaveRelationship
             // 
             this.btnSaveRelationship.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnSaveRelationship.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.btnSaveRelationship.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnSaveRelationship.ForeColor = System.Drawing.Color.Blue;
-            this.btnSaveRelationship.Location = new System.Drawing.Point(281, 171);
+            this.btnSaveRelationship.Location = new System.Drawing.Point(290, 170);
             this.btnSaveRelationship.Name = "btnSaveRelationship";
-            this.btnSaveRelationship.Size = new System.Drawing.Size(124, 70);
+            this.btnSaveRelationship.Size = new System.Drawing.Size(124, 58);
             this.btnSaveRelationship.TabIndex = 1;
             this.btnSaveRelationship.Text = "Save ";
             this.btnSaveRelationship.UseVisualStyleBackColor = false;
@@ -83,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(468, 292);
             this.Controls.Add(this.lblCategoryName);
             this.Controls.Add(this.groupBox1);

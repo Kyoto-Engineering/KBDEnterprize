@@ -148,7 +148,7 @@
             // 
             this.SearchByCompanyIdGroupBoxgroupBox.Controls.Add(this.SearchByCompanyIdtextBox);
             this.SearchByCompanyIdGroupBoxgroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.SearchByCompanyIdGroupBoxgroupBox.ForeColor = System.Drawing.Color.OrangeRed;
+            this.SearchByCompanyIdGroupBoxgroupBox.ForeColor = System.Drawing.Color.Navy;
             this.SearchByCompanyIdGroupBoxgroupBox.Location = new System.Drawing.Point(380, 45);
             this.SearchByCompanyIdGroupBoxgroupBox.Name = "SearchByCompanyIdGroupBoxgroupBox";
             this.SearchByCompanyIdGroupBoxgroupBox.Size = new System.Drawing.Size(224, 63);
@@ -169,7 +169,7 @@
             // 
             this.SearchByCompanyNameGroupBox.Controls.Add(this.companyNameSearchtextBox);
             this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.OrangeRed;
+            this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.Navy;
             this.SearchByCompanyNameGroupBox.Location = new System.Drawing.Point(17, 44);
             this.SearchByCompanyNameGroupBox.Name = "SearchByCompanyNameGroupBox";
             this.SearchByCompanyNameGroupBox.Size = new System.Drawing.Size(311, 63);
@@ -190,7 +190,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(478, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(376, 33);
@@ -211,7 +211,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(9, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(147, 33);
@@ -222,6 +222,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -520,7 +521,7 @@
             // 
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.BurlyWood;
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -938,7 +939,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(17, 13);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(113, 33);
@@ -949,7 +950,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Cyan;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1289, 700);
             this.Controls.Add(this.PersonGridgroupBox);
             this.Controls.Add(this.SearchByCompanyIdGroupBoxgroupBox);

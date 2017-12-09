@@ -46,7 +46,7 @@
             this.groupBox1.Controls.Add(this.txtIndustryCategory);
             this.groupBox1.Controls.Add(this.saveButton);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(108, 32);
+            this.groupBox1.Location = new System.Drawing.Point(46, 32);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(490, 141);
             this.groupBox1.TabIndex = 0;
@@ -64,9 +64,10 @@
             // saveButton
             // 
             this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.saveButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.saveButton.ForeColor = System.Drawing.Color.Blue;
-            this.saveButton.Location = new System.Drawing.Point(342, 82);
+            this.saveButton.Location = new System.Drawing.Point(342, 83);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(121, 42);
             this.saveButton.TabIndex = 1;
@@ -95,7 +96,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Bisque;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
@@ -114,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(613, 472);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

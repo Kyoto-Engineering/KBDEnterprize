@@ -40,46 +40,52 @@
             // 
             // divisionComboBox
             // 
+            this.divisionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.divisionComboBox.FormattingEnabled = true;
-            this.divisionComboBox.Location = new System.Drawing.Point(216, 36);
+            this.divisionComboBox.Location = new System.Drawing.Point(160, 33);
             this.divisionComboBox.Name = "divisionComboBox";
-            this.divisionComboBox.Size = new System.Drawing.Size(121, 21);
+            this.divisionComboBox.Size = new System.Drawing.Size(244, 32);
             this.divisionComboBox.TabIndex = 0;
             this.divisionComboBox.SelectedIndexChanged += new System.EventHandler(this.divisionComboBox_SelectedIndexChanged);
             // 
             // districtComboBox
             // 
+            this.districtComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.districtComboBox.FormattingEnabled = true;
-            this.districtComboBox.Location = new System.Drawing.Point(216, 79);
+            this.districtComboBox.Location = new System.Drawing.Point(160, 76);
             this.districtComboBox.Name = "districtComboBox";
-            this.districtComboBox.Size = new System.Drawing.Size(121, 21);
+            this.districtComboBox.Size = new System.Drawing.Size(244, 32);
             this.districtComboBox.TabIndex = 1;
             this.districtComboBox.SelectedIndexChanged += new System.EventHandler(this.districtComboBox_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(148, 39);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(46, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(83, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Division";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(153, 82);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(57, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(72, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "District";
             // 
             // getButton
             // 
             this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.getButton.Location = new System.Drawing.Point(231, 208);
+            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.getButton.ForeColor = System.Drawing.Color.Blue;
+            this.getButton.Location = new System.Drawing.Point(224, 225);
             this.getButton.Name = "getButton";
-            this.getButton.Size = new System.Drawing.Size(75, 23);
+            this.getButton.Size = new System.Drawing.Size(94, 43);
             this.getButton.TabIndex = 4;
             this.getButton.Text = "GET";
             this.getButton.UseVisualStyleBackColor = true;
@@ -88,9 +94,10 @@
             // workingRadioButton
             // 
             this.workingRadioButton.AutoSize = true;
-            this.workingRadioButton.Location = new System.Drawing.Point(216, 117);
+            this.workingRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.workingRadioButton.Location = new System.Drawing.Point(180, 138);
             this.workingRadioButton.Name = "workingRadioButton";
-            this.workingRadioButton.Size = new System.Drawing.Size(106, 17);
+            this.workingRadioButton.Size = new System.Drawing.Size(188, 28);
             this.workingRadioButton.TabIndex = 5;
             this.workingRadioButton.TabStop = true;
             this.workingRadioButton.Text = "Working Address";
@@ -99,9 +106,10 @@
             // resedentialRadioButton
             // 
             this.resedentialRadioButton.AutoSize = true;
-            this.resedentialRadioButton.Location = new System.Drawing.Point(216, 140);
+            this.resedentialRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.resedentialRadioButton.Location = new System.Drawing.Point(169, 172);
             this.resedentialRadioButton.Name = "resedentialRadioButton";
-            this.resedentialRadioButton.Size = new System.Drawing.Size(118, 17);
+            this.resedentialRadioButton.Size = new System.Drawing.Size(214, 28);
             this.resedentialRadioButton.TabIndex = 6;
             this.resedentialRadioButton.TabStop = true;
             this.resedentialRadioButton.Text = "Residential Address";
@@ -111,7 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkCyan;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(494, 305);
             this.Controls.Add(this.resedentialRadioButton);
             this.Controls.Add(this.workingRadioButton);

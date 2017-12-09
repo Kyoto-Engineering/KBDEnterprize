@@ -57,6 +57,7 @@
             // 
             // getButton
             // 
+            this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.getButton.Location = new System.Drawing.Point(171, 193);
             this.getButton.Name = "getButton";
             this.getButton.Size = new System.Drawing.Size(75, 23);

@@ -576,6 +576,7 @@
             // ForeignSave
             // 
             this.ForeignSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.ForeignSave.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.ForeignSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.ForeignSave.ForeColor = System.Drawing.Color.Blue;
             this.ForeignSave.Location = new System.Drawing.Point(1020, 574);
@@ -716,7 +717,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1227, 655);
             this.Controls.Add(this.textNationalityForeign);
             this.Controls.Add(this.Nationality);

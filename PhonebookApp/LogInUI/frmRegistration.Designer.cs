@@ -179,6 +179,7 @@
             // userButton
             // 
             this.userButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.userButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.userButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.userButton.ForeColor = System.Drawing.Color.Blue;
             this.userButton.Location = new System.Drawing.Point(291, 363);
@@ -258,7 +259,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Olive;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(607, 463);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

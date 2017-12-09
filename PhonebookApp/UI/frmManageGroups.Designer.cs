@@ -61,8 +61,9 @@
             // NewGroupCreationbutton
             // 
             this.NewGroupCreationbutton.BackColor = System.Drawing.Color.OrangeRed;
+            this.NewGroupCreationbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.NewGroupCreationbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.NewGroupCreationbutton.ForeColor = System.Drawing.Color.White;
+            this.NewGroupCreationbutton.ForeColor = System.Drawing.Color.Blue;
             this.NewGroupCreationbutton.Location = new System.Drawing.Point(54, 48);
             this.NewGroupCreationbutton.Name = "NewGroupCreationbutton";
             this.NewGroupCreationbutton.Size = new System.Drawing.Size(134, 54);
@@ -74,8 +75,9 @@
             // buttonAgeGroup
             // 
             this.buttonAgeGroup.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonAgeGroup.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.buttonAgeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.buttonAgeGroup.ForeColor = System.Drawing.Color.White;
+            this.buttonAgeGroup.ForeColor = System.Drawing.Color.Blue;
             this.buttonAgeGroup.Location = new System.Drawing.Point(54, 122);
             this.buttonAgeGroup.Name = "buttonAgeGroup";
             this.buttonAgeGroup.Size = new System.Drawing.Size(134, 54);
@@ -87,8 +89,9 @@
             // buttonProfession
             // 
             this.buttonProfession.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonProfession.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.buttonProfession.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.buttonProfession.ForeColor = System.Drawing.Color.White;
+            this.buttonProfession.ForeColor = System.Drawing.Color.Blue;
             this.buttonProfession.Location = new System.Drawing.Point(276, 122);
             this.buttonProfession.Name = "buttonProfession";
             this.buttonProfession.Size = new System.Drawing.Size(134, 54);
@@ -100,8 +103,9 @@
             // buttonSpecialization
             // 
             this.buttonSpecialization.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonSpecialization.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.buttonSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.buttonSpecialization.ForeColor = System.Drawing.Color.White;
+            this.buttonSpecialization.ForeColor = System.Drawing.Color.Blue;
             this.buttonSpecialization.Location = new System.Drawing.Point(276, 48);
             this.buttonSpecialization.Name = "buttonSpecialization";
             this.buttonSpecialization.Size = new System.Drawing.Size(134, 54);
@@ -113,8 +117,9 @@
             // buttonJobTitle
             // 
             this.buttonJobTitle.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonJobTitle.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.buttonJobTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.buttonJobTitle.ForeColor = System.Drawing.Color.White;
+            this.buttonJobTitle.ForeColor = System.Drawing.Color.Blue;
             this.buttonJobTitle.Location = new System.Drawing.Point(276, 200);
             this.buttonJobTitle.Name = "buttonJobTitle";
             this.buttonJobTitle.Size = new System.Drawing.Size(134, 54);
@@ -126,8 +131,9 @@
             // buttonEducationLevel
             // 
             this.buttonEducationLevel.BackColor = System.Drawing.Color.OrangeRed;
+            this.buttonEducationLevel.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.buttonEducationLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.buttonEducationLevel.ForeColor = System.Drawing.Color.White;
+            this.buttonEducationLevel.ForeColor = System.Drawing.Color.Blue;
             this.buttonEducationLevel.Location = new System.Drawing.Point(54, 272);
             this.buttonEducationLevel.Name = "buttonEducationLevel";
             this.buttonEducationLevel.Size = new System.Drawing.Size(134, 54);
@@ -139,8 +145,9 @@
             // Categorybutton
             // 
             this.Categorybutton.BackColor = System.Drawing.Color.OrangeRed;
+            this.Categorybutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.Categorybutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.Categorybutton.ForeColor = System.Drawing.Color.White;
+            this.Categorybutton.ForeColor = System.Drawing.Color.Blue;
             this.Categorybutton.Location = new System.Drawing.Point(54, 199);
             this.Categorybutton.Name = "Categorybutton";
             this.Categorybutton.Size = new System.Drawing.Size(134, 54);
@@ -153,7 +160,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(234, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(289, 33);
@@ -164,7 +171,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(728, 522);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);

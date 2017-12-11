@@ -68,8 +68,9 @@
             this.EidGreetingGroupAddressbutton = new System.Windows.Forms.Button();
             this.EnvelopesizeGroupAddressbutton = new System.Windows.Forms.Button();
             this.A4SizeGroupAddressbutton = new System.Windows.Forms.Button();
-            this.LOIforK8DSbutton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.LOIforK8DSbutton = new System.Windows.Forms.Button();
+            this.LOIforKBDbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -82,7 +83,6 @@
             // 
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
-            this.dataGridView.BackgroundColor = System.Drawing.Color.LightBlue;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -103,7 +103,7 @@
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(736, 257);
+            this.dataGridView.Size = new System.Drawing.Size(846, 257);
             this.dataGridView.TabIndex = 0;
             this.dataGridView.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView_RowHeaderMouseClick);
             // 
@@ -194,20 +194,20 @@
             // 
             // listView
             // 
-            this.listView.BackColor = System.Drawing.Color.LightBlue;
+            this.listView.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
-            this.listView.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.listView.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
             this.listView.Location = new System.Drawing.Point(421, 456);
             this.listView.Name = "listView";
             this.listView.ShowItemToolTips = true;
-            this.listView.Size = new System.Drawing.Size(726, 231);
+            this.listView.Size = new System.Drawing.Size(846, 231);
             this.listView.TabIndex = 4;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
@@ -241,23 +241,22 @@
             // groupNamelabel
             // 
             this.groupNamelabel.AutoSize = true;
-            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.groupNamelabel.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupNamelabel.ForeColor = System.Drawing.Color.Black;
-            this.groupNamelabel.Location = new System.Drawing.Point(611, 403);
+            this.groupNamelabel.Location = new System.Drawing.Point(620, 405);
             this.groupNamelabel.Name = "groupNamelabel";
-            this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
+            this.groupNamelabel.Size = new System.Drawing.Size(116, 22);
             this.groupNamelabel.TabIndex = 5;
             this.groupNamelabel.Text = "Group Name";
             // 
             // addbutton
             // 
-            this.addbutton.BackColor = System.Drawing.Color.Yellow;
-            this.addbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.addbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.addbutton.ForeColor = System.Drawing.Color.Blue;
+            this.addbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.addbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addbutton.ForeColor = System.Drawing.Color.Black;
             this.addbutton.Location = new System.Drawing.Point(421, 386);
             this.addbutton.Name = "addbutton";
-            this.addbutton.Size = new System.Drawing.Size(93, 57);
+            this.addbutton.Size = new System.Drawing.Size(113, 57);
             this.addbutton.TabIndex = 6;
             this.addbutton.Text = "Add";
             this.addbutton.UseVisualStyleBackColor = false;
@@ -265,12 +264,12 @@
             // 
             // submitbutton
             // 
-            this.submitbutton.BackColor = System.Drawing.Color.Blue;
-            this.submitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.submitbutton.ForeColor = System.Drawing.Color.White;
-            this.submitbutton.Location = new System.Drawing.Point(1060, 392);
+            this.submitbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.submitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitbutton.ForeColor = System.Drawing.Color.Black;
+            this.submitbutton.Location = new System.Drawing.Point(1166, 384);
             this.submitbutton.Name = "submitbutton";
-            this.submitbutton.Size = new System.Drawing.Size(97, 53);
+            this.submitbutton.Size = new System.Drawing.Size(101, 53);
             this.submitbutton.TabIndex = 7;
             this.submitbutton.Text = "Submit";
             this.submitbutton.UseVisualStyleBackColor = false;
@@ -278,22 +277,22 @@
             // 
             // GroupNamecomboBox
             // 
-            this.GroupNamecomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.GroupNamecomboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupNamecomboBox.FormattingEnabled = true;
             this.GroupNamecomboBox.Location = new System.Drawing.Point(742, 402);
             this.GroupNamecomboBox.Name = "GroupNamecomboBox";
-            this.GroupNamecomboBox.Size = new System.Drawing.Size(257, 28);
+            this.GroupNamecomboBox.Size = new System.Drawing.Size(257, 27);
             this.GroupNamecomboBox.TabIndex = 8;
             this.GroupNamecomboBox.SelectedIndexChanged += new System.EventHandler(this.GroupNamecomboBox_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(13, 12);
+            this.label1.Location = new System.Drawing.Point(34, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(328, 31);
+            this.label1.Size = new System.Drawing.Size(265, 25);
             this.label1.TabIndex = 9;
             this.label1.Text = "Contact Added to Group";
             // 
@@ -309,8 +308,8 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.richTextBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox2.ForeColor = System.Drawing.Color.Navy;
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(30, 245);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(341, 130);
@@ -330,8 +329,8 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.richTextBox2);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox3.ForeColor = System.Drawing.Color.Navy;
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(26, 404);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(355, 120);
@@ -350,13 +349,12 @@
             // 
             // removeButton
             // 
-            this.removeButton.BackColor = System.Drawing.Color.Red;
-            this.removeButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.removeButton.ForeColor = System.Drawing.Color.Blue;
-            this.removeButton.Location = new System.Drawing.Point(300, 575);
+            this.removeButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeButton.ForeColor = System.Drawing.Color.Black;
+            this.removeButton.Location = new System.Drawing.Point(288, 575);
             this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(93, 53);
+            this.removeButton.Size = new System.Drawing.Size(105, 53);
             this.removeButton.TabIndex = 13;
             this.removeButton.Text = "Remove";
             this.removeButton.UseVisualStyleBackColor = false;
@@ -365,18 +363,16 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.PersonSearchtextBox);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox4.ForeColor = System.Drawing.Color.Navy;
             this.groupBox4.Location = new System.Drawing.Point(421, 58);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(299, 57);
+            this.groupBox4.Size = new System.Drawing.Size(334, 57);
             this.groupBox4.TabIndex = 14;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Search By Person Name";
             // 
             // PersonSearchtextBox
             // 
-            this.PersonSearchtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.PersonSearchtextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonSearchtextBox.Location = new System.Drawing.Point(14, 20);
             this.PersonSearchtextBox.Name = "PersonSearchtextBox";
             this.PersonSearchtextBox.Size = new System.Drawing.Size(265, 26);
@@ -387,18 +383,16 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.CompanySearchtextBox);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox5.ForeColor = System.Drawing.Color.Navy;
-            this.groupBox5.Location = new System.Drawing.Point(760, 58);
+            this.groupBox5.Location = new System.Drawing.Point(813, 58);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(306, 57);
+            this.groupBox5.Size = new System.Drawing.Size(344, 57);
             this.groupBox5.TabIndex = 15;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Search By Company Name";
             // 
             // CompanySearchtextBox
             // 
-            this.CompanySearchtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.CompanySearchtextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompanySearchtextBox.Location = new System.Drawing.Point(12, 20);
             this.CompanySearchtextBox.Name = "CompanySearchtextBox";
             this.CompanySearchtextBox.Size = new System.Drawing.Size(283, 26);
@@ -408,10 +402,9 @@
             // 
             // EidGreetingGroupAddressbutton
             // 
-            this.EidGreetingGroupAddressbutton.BackColor = System.Drawing.Color.CadetBlue;
-            this.EidGreetingGroupAddressbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.EidGreetingGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.EidGreetingGroupAddressbutton.ForeColor = System.Drawing.Color.Blue;
+            this.EidGreetingGroupAddressbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.EidGreetingGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EidGreetingGroupAddressbutton.ForeColor = System.Drawing.Color.Black;
             this.EidGreetingGroupAddressbutton.Location = new System.Drawing.Point(261, 78);
             this.EidGreetingGroupAddressbutton.Name = "EidGreetingGroupAddressbutton";
             this.EidGreetingGroupAddressbutton.Size = new System.Drawing.Size(110, 65);
@@ -422,10 +415,9 @@
             // 
             // EnvelopesizeGroupAddressbutton
             // 
-            this.EnvelopesizeGroupAddressbutton.BackColor = System.Drawing.Color.CadetBlue;
-            this.EnvelopesizeGroupAddressbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.EnvelopesizeGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.EnvelopesizeGroupAddressbutton.ForeColor = System.Drawing.Color.Blue;
+            this.EnvelopesizeGroupAddressbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.EnvelopesizeGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnvelopesizeGroupAddressbutton.ForeColor = System.Drawing.Color.Black;
             this.EnvelopesizeGroupAddressbutton.Location = new System.Drawing.Point(137, 78);
             this.EnvelopesizeGroupAddressbutton.Name = "EnvelopesizeGroupAddressbutton";
             this.EnvelopesizeGroupAddressbutton.Size = new System.Drawing.Size(106, 65);
@@ -436,10 +428,9 @@
             // 
             // A4SizeGroupAddressbutton
             // 
-            this.A4SizeGroupAddressbutton.BackColor = System.Drawing.Color.CadetBlue;
-            this.A4SizeGroupAddressbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.A4SizeGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.A4SizeGroupAddressbutton.ForeColor = System.Drawing.Color.Blue;
+            this.A4SizeGroupAddressbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.A4SizeGroupAddressbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.A4SizeGroupAddressbutton.ForeColor = System.Drawing.Color.Black;
             this.A4SizeGroupAddressbutton.Location = new System.Drawing.Point(29, 78);
             this.A4SizeGroupAddressbutton.Name = "A4SizeGroupAddressbutton";
             this.A4SizeGroupAddressbutton.Size = new System.Drawing.Size(102, 65);
@@ -448,40 +439,55 @@
             this.A4SizeGroupAddressbutton.UseVisualStyleBackColor = false;
             this.A4SizeGroupAddressbutton.Click += new System.EventHandler(this.A4SizeGroupAddressbutton_Click);
             // 
-            // LOIforK8DSbutton
-            // 
-            this.LOIforK8DSbutton.BackColor = System.Drawing.Color.CadetBlue;
-            this.LOIforK8DSbutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.LOIforK8DSbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.LOIforK8DSbutton.ForeColor = System.Drawing.Color.Blue;
-            this.LOIforK8DSbutton.Location = new System.Drawing.Point(57, 158);
-            this.LOIforK8DSbutton.Name = "LOIforK8DSbutton";
-            this.LOIforK8DSbutton.Size = new System.Drawing.Size(127, 65);
-            this.LOIforK8DSbutton.TabIndex = 19;
-            this.LOIforK8DSbutton.Text = "LOI for K8DS";
-            this.LOIforK8DSbutton.UseVisualStyleBackColor = false;
-            this.LOIforK8DSbutton.Click += new System.EventHandler(this.LOIforK8DSbutton_Click);
-            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.CadetBlue;
-            this.button1.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(216, 158);
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(137, 149);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 65);
-            this.button1.TabIndex = 20;
+            this.button1.Size = new System.Drawing.Size(106, 65);
+            this.button1.TabIndex = 22;
             this.button1.Text = "LOI for Automated Traffic Light";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // LOIforK8DSbutton
+            // 
+            this.LOIforK8DSbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.LOIforK8DSbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LOIforK8DSbutton.ForeColor = System.Drawing.Color.Black;
+            this.LOIforK8DSbutton.Location = new System.Drawing.Point(29, 149);
+            this.LOIforK8DSbutton.Name = "LOIforK8DSbutton";
+            this.LOIforK8DSbutton.Size = new System.Drawing.Size(102, 65);
+            this.LOIforK8DSbutton.TabIndex = 21;
+            this.LOIforK8DSbutton.Text = "LOI for K8DS";
+            this.LOIforK8DSbutton.UseVisualStyleBackColor = false;
+            this.LOIforK8DSbutton.Visible = false;
+            this.LOIforK8DSbutton.Click += new System.EventHandler(this.LOIforK8DSbutton_Click);
+            // 
+            // LOIforKBDbutton
+            // 
+            this.LOIforKBDbutton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.LOIforKBDbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LOIforKBDbutton.ForeColor = System.Drawing.Color.Black;
+            this.LOIforKBDbutton.Location = new System.Drawing.Point(261, 149);
+            this.LOIforKBDbutton.Name = "LOIforKBDbutton";
+            this.LOIforKBDbutton.Size = new System.Drawing.Size(110, 65);
+            this.LOIforKBDbutton.TabIndex = 23;
+            this.LOIforKBDbutton.Text = "LOI for KBD";
+            this.LOIforKBDbutton.UseVisualStyleBackColor = false;
+            this.LOIforKBDbutton.Visible = false;
+            this.LOIforKBDbutton.Click += new System.EventHandler(this.LOIforKBDbutton_Click);
             // 
             // Group
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(1235, 703);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(1279, 703);
+            this.Controls.Add(this.LOIforKBDbutton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LOIforK8DSbutton);
             this.Controls.Add(this.A4SizeGroupAddressbutton);
@@ -559,7 +565,8 @@
         private System.Windows.Forms.Button EidGreetingGroupAddressbutton;
         private System.Windows.Forms.Button EnvelopesizeGroupAddressbutton;
         private System.Windows.Forms.Button A4SizeGroupAddressbutton;
-        private System.Windows.Forms.Button LOIforK8DSbutton;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button LOIforK8DSbutton;
+        private System.Windows.Forms.Button LOIforKBDbutton;
     }
 }

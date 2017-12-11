@@ -571,9 +571,17 @@ namespace PhonebookApp.UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LOIforAutomatedTrafficLightUI f2 = new LOIforAutomatedTrafficLightUI();
+            NewLOIforAutomatedTrafficLightUI f2 = new NewLOIforAutomatedTrafficLightUI();
             this.Visible = false;
             f2.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void LOIforKBDbutton_Click(object sender, EventArgs e)
+        {
+            LOIforKBDUI f3 = new LOIforKBDUI();
+            this.Visible = false;
+            f3.ShowDialog();
             this.Visible = true;
         }
     }

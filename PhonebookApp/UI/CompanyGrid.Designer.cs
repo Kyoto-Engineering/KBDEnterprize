@@ -382,18 +382,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(484, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(323, 33);
+            this.label1.Size = new System.Drawing.Size(243, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "All Companies Details";
             // 
             // SearchByCompanyNameGroupBox
             // 
             this.SearchByCompanyNameGroupBox.Controls.Add(this.companyNameSearchtextBox);
-            this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.SearchByCompanyNameGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchByCompanyNameGroupBox.ForeColor = System.Drawing.Color.Black;
             this.SearchByCompanyNameGroupBox.Location = new System.Drawing.Point(23, 41);
             this.SearchByCompanyNameGroupBox.Name = "SearchByCompanyNameGroupBox";
@@ -404,7 +404,7 @@
             // 
             // companyNameSearchtextBox
             // 
-            this.companyNameSearchtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.companyNameSearchtextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.companyNameSearchtextBox.Location = new System.Drawing.Point(26, 23);
             this.companyNameSearchtextBox.Name = "companyNameSearchtextBox";
             this.companyNameSearchtextBox.Size = new System.Drawing.Size(270, 29);
@@ -415,21 +415,21 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.SearchByCompanyIdtextBox);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(361, 42);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(251, 63);
+            this.groupBox2.Size = new System.Drawing.Size(178, 63);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Search By Company Id";
             // 
             // SearchByCompanyIdtextBox
             // 
-            this.SearchByCompanyIdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.SearchByCompanyIdtextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchByCompanyIdtextBox.Location = new System.Drawing.Point(12, 23);
             this.SearchByCompanyIdtextBox.Name = "SearchByCompanyIdtextBox";
-            this.SearchByCompanyIdtextBox.Size = new System.Drawing.Size(222, 29);
+            this.SearchByCompanyIdtextBox.Size = new System.Drawing.Size(155, 29);
             this.SearchByCompanyIdtextBox.TabIndex = 0;
             this.SearchByCompanyIdtextBox.TextChanged += new System.EventHandler(this.SearchByCompanyIdtextBox_TextChanged);
             this.SearchByCompanyIdtextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchByCompanyIdtextBox_KeyDown);
@@ -438,7 +438,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1289, 700);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.SearchByCompanyNameGroupBox);

@@ -63,22 +63,22 @@
             // 
             // GroupNamecomboBox
             // 
-            this.GroupNamecomboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.GroupNamecomboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GroupNamecomboBox.FormattingEnabled = true;
             this.GroupNamecomboBox.Location = new System.Drawing.Point(6, 37);
             this.GroupNamecomboBox.Name = "GroupNamecomboBox";
-            this.GroupNamecomboBox.Size = new System.Drawing.Size(287, 28);
+            this.GroupNamecomboBox.Size = new System.Drawing.Size(287, 27);
             this.GroupNamecomboBox.TabIndex = 12;
             this.GroupNamecomboBox.SelectedIndexChanged += new System.EventHandler(this.GroupNamecomboBox_SelectedIndexChanged);
             // 
             // groupNamelabel
             // 
             this.groupNamelabel.AutoSize = true;
-            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.groupNamelabel.ForeColor = System.Drawing.Color.Navy;
+            this.groupNamelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupNamelabel.ForeColor = System.Drawing.Color.Black;
             this.groupNamelabel.Location = new System.Drawing.Point(4, 11);
             this.groupNamelabel.Name = "groupNamelabel";
-            this.groupNamelabel.Size = new System.Drawing.Size(129, 24);
+            this.groupNamelabel.Size = new System.Drawing.Size(110, 20);
             this.groupNamelabel.TabIndex = 11;
             this.groupNamelabel.Text = "Group Name";
             // 
@@ -86,7 +86,7 @@
             // 
             this.dataGridView.AllowUserToAddRows = false;
             this.dataGridView.AllowUserToDeleteRows = false;
-            this.dataGridView.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.DimGray;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -190,13 +190,12 @@
             // 
             // removeButton
             // 
-            this.removeButton.BackColor = System.Drawing.Color.SandyBrown;
-            this.removeButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.removeButton.ForeColor = System.Drawing.Color.Blue;
+            this.removeButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.removeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.removeButton.ForeColor = System.Drawing.Color.Black;
             this.removeButton.Location = new System.Drawing.Point(177, 208);
             this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(113, 56);
+            this.removeButton.Size = new System.Drawing.Size(113, 38);
             this.removeButton.TabIndex = 8;
             this.removeButton.Text = "Remove";
             this.removeButton.UseVisualStyleBackColor = false;
@@ -206,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1129, 519);
             this.Controls.Add(this.removeButton);
             this.Controls.Add(this.dataGridView);

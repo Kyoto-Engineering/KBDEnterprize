@@ -41,69 +41,68 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(222, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(480, 31);
+            this.label1.Size = new System.Drawing.Size(462, 31);
             this.label1.TabIndex = 3;
-            this.label1.Text = " List  of Foreign Person  Information";
+            this.label1.Text = " List  of Overseas Person  Information";
             // 
             // SearchPersonNametextBox
             // 
-            this.SearchPersonNametextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.SearchPersonNametextBox.Location = new System.Drawing.Point(46, 106);
+            this.SearchPersonNametextBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchPersonNametextBox.Location = new System.Drawing.Point(37, 107);
             this.SearchPersonNametextBox.Name = "SearchPersonNametextBox";
-            this.SearchPersonNametextBox.Size = new System.Drawing.Size(236, 26);
+            this.SearchPersonNametextBox.Size = new System.Drawing.Size(221, 26);
             this.SearchPersonNametextBox.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(42, 83);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 20);
+            this.label2.Size = new System.Drawing.Size(253, 20);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Search By Foreign Person Name";
+            this.label2.Text = "Search By Overseas Person Name";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.SearchByPersonIdtextBox);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Black;
             this.groupBox2.Location = new System.Drawing.Point(398, 85);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(240, 59);
+            this.groupBox2.Size = new System.Drawing.Size(232, 59);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Search By Foreign Person Id";
+            this.groupBox2.Text = "Search By Overseas Person Id";
             // 
             // SearchByPersonIdtextBox
             // 
-            this.SearchByPersonIdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.SearchByPersonIdtextBox.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchByPersonIdtextBox.Location = new System.Drawing.Point(10, 20);
             this.SearchByPersonIdtextBox.Name = "SearchByPersonIdtextBox";
-            this.SearchByPersonIdtextBox.Size = new System.Drawing.Size(224, 29);
+            this.SearchByPersonIdtextBox.Size = new System.Drawing.Size(216, 29);
             this.SearchByPersonIdtextBox.TabIndex = 0;
             // 
             // CompanySelectiongroupBox
             // 
-            this.CompanySelectiongroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.CompanySelectiongroupBox.ForeColor = System.Drawing.Color.Black;
             this.CompanySelectiongroupBox.Location = new System.Drawing.Point(25, 194);
             this.CompanySelectiongroupBox.Name = "CompanySelectiongroupBox";
             this.CompanySelectiongroupBox.Size = new System.Drawing.Size(910, 256);
             this.CompanySelectiongroupBox.TabIndex = 9;
             this.CompanySelectiongroupBox.TabStop = false;
-            this.CompanySelectiongroupBox.Text = "Foreign Person Selection (Existing Person)";
+            this.CompanySelectiongroupBox.Text = "Overseas Person Selection (Existing Person)";
             // 
             // ForeignPersonSelectionUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(958, 474);
             this.Controls.Add(this.CompanySelectiongroupBox);
             this.Controls.Add(this.groupBox2);

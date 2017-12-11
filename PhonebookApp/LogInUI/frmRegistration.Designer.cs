@@ -181,7 +181,7 @@
             this.userButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.userButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.userButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.userButton.ForeColor = System.Drawing.Color.Blue;
+            this.userButton.ForeColor = System.Drawing.Color.Navy;
             this.userButton.Location = new System.Drawing.Point(291, 363);
             this.userButton.Name = "userButton";
             this.userButton.Size = new System.Drawing.Size(124, 49);

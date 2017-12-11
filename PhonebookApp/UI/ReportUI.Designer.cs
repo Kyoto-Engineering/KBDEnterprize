@@ -50,24 +50,23 @@
             // 
             // letterOfIntroductionButton
             // 
-            this.letterOfIntroductionButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.letterOfIntroductionButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.letterOfIntroductionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterOfIntroductionButton.ForeColor = System.Drawing.Color.Blue;
-            this.letterOfIntroductionButton.Location = new System.Drawing.Point(27, 31);
+            this.letterOfIntroductionButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.letterOfIntroductionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterOfIntroductionButton.ForeColor = System.Drawing.Color.Black;
+            this.letterOfIntroductionButton.Location = new System.Drawing.Point(16, 217);
             this.letterOfIntroductionButton.Name = "letterOfIntroductionButton";
             this.letterOfIntroductionButton.Size = new System.Drawing.Size(161, 62);
             this.letterOfIntroductionButton.TabIndex = 0;
             this.letterOfIntroductionButton.Text = "Letter Of Introduction";
             this.letterOfIntroductionButton.UseVisualStyleBackColor = false;
+            this.letterOfIntroductionButton.Visible = false;
             this.letterOfIntroductionButton.Click += new System.EventHandler(this.letterOfIntroductionButton_Click);
             // 
             // gretingsCardButton
             // 
-            this.gretingsCardButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.gretingsCardButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.gretingsCardButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gretingsCardButton.ForeColor = System.Drawing.Color.Blue;
+            this.gretingsCardButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.gretingsCardButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gretingsCardButton.ForeColor = System.Drawing.Color.Black;
             this.gretingsCardButton.Location = new System.Drawing.Point(203, 31);
             this.gretingsCardButton.Name = "gretingsCardButton";
             this.gretingsCardButton.Size = new System.Drawing.Size(165, 62);
@@ -78,11 +77,10 @@
             // 
             // addressButton
             // 
-            this.addressButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.addressButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.addressButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressButton.ForeColor = System.Drawing.Color.Blue;
-            this.addressButton.Location = new System.Drawing.Point(385, 31);
+            this.addressButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.addressButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressButton.ForeColor = System.Drawing.Color.Black;
+            this.addressButton.Location = new System.Drawing.Point(404, 32);
             this.addressButton.Name = "addressButton";
             this.addressButton.Size = new System.Drawing.Size(172, 62);
             this.addressButton.TabIndex = 2;
@@ -106,20 +104,19 @@
             this.groupBox1.Controls.Add(this.gretingsCardButton);
             this.groupBox1.Location = new System.Drawing.Point(15, 32);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(618, 387);
+            this.groupBox1.Size = new System.Drawing.Size(799, 314);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.CadetBlue;
-            this.button5.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
+            this.button5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Blue;
-            this.button5.Location = new System.Drawing.Point(203, 225);
+            this.button5.ForeColor = System.Drawing.Color.Black;
+            this.button5.Location = new System.Drawing.Point(607, 128);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(165, 65);
+            this.button5.Size = new System.Drawing.Size(165, 62);
             this.button5.TabIndex = 12;
             this.button5.Text = "List of Contact by Specialization";
             this.button5.UseVisualStyleBackColor = false;
@@ -127,11 +124,10 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.CadetBlue;
-            this.button4.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Blue;
-            this.button4.Location = new System.Drawing.Point(385, 224);
+            this.button4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(404, 128);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(172, 65);
             this.button4.TabIndex = 11;
@@ -141,11 +137,10 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.CadetBlue;
-            this.button3.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Blue;
-            this.button3.Location = new System.Drawing.Point(27, 125);
+            this.button3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(16, 125);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(161, 65);
             this.button3.TabIndex = 10;
@@ -156,10 +151,9 @@
             // PerWithCompanyButton
             // 
             this.PerWithCompanyButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.PerWithCompanyButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.PerWithCompanyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PerWithCompanyButton.ForeColor = System.Drawing.Color.White;
-            this.PerWithCompanyButton.Location = new System.Drawing.Point(571, 62);
+            this.PerWithCompanyButton.Location = new System.Drawing.Point(563, 51);
             this.PerWithCompanyButton.Name = "PerWithCompanyButton";
             this.PerWithCompanyButton.Size = new System.Drawing.Size(23, 23);
             this.PerWithCompanyButton.TabIndex = 9;
@@ -171,10 +165,9 @@
             // CompanyWithEmailButton
             // 
             this.CompanyWithEmailButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.CompanyWithEmailButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.CompanyWithEmailButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CompanyWithEmailButton.ForeColor = System.Drawing.Color.White;
-            this.CompanyWithEmailButton.Location = new System.Drawing.Point(565, 32);
+            this.CompanyWithEmailButton.Location = new System.Drawing.Point(563, 19);
             this.CompanyWithEmailButton.Name = "CompanyWithEmailButton";
             this.CompanyWithEmailButton.Size = new System.Drawing.Size(33, 26);
             this.CompanyWithEmailButton.TabIndex = 8;
@@ -185,27 +178,25 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.CadetBlue;
-            this.button2.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Blue;
-            this.button2.Location = new System.Drawing.Point(27, 224);
+            this.button2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(16, 28);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 65);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Print Batch";
+            this.button2.Text = "Courier Batch";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.CadetBlue;
-            this.button1.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(385, 128);
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(607, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(172, 62);
+            this.button1.Size = new System.Drawing.Size(165, 62);
             this.button1.TabIndex = 6;
             this.button1.Text = "Greetings Card Residential All";
             this.button1.UseVisualStyleBackColor = false;
@@ -213,10 +204,9 @@
             // 
             // TestButton
             // 
-            this.TestButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.TestButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.TestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TestButton.ForeColor = System.Drawing.Color.Blue;
+            this.TestButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.TestButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TestButton.ForeColor = System.Drawing.Color.Black;
             this.TestButton.Location = new System.Drawing.Point(203, 128);
             this.TestButton.Name = "TestButton";
             this.TestButton.Size = new System.Drawing.Size(165, 62);
@@ -227,13 +217,12 @@
             // 
             // allAddressButton
             // 
-            this.allAddressButton.BackColor = System.Drawing.Color.CadetBlue;
-            this.allAddressButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.allAddressButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.allAddressButton.ForeColor = System.Drawing.Color.Blue;
-            this.allAddressButton.Location = new System.Drawing.Point(203, 333);
+            this.allAddressButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.allAddressButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.allAddressButton.ForeColor = System.Drawing.Color.Black;
+            this.allAddressButton.Location = new System.Drawing.Point(404, 214);
             this.allAddressButton.Name = "allAddressButton";
-            this.allAddressButton.Size = new System.Drawing.Size(161, 35);
+            this.allAddressButton.Size = new System.Drawing.Size(172, 65);
             this.allAddressButton.TabIndex = 3;
             this.allAddressButton.Text = "Greetings Card By Group";
             this.allAddressButton.UseVisualStyleBackColor = false;
@@ -245,27 +234,27 @@
             this.groupBox2.Controls.Add(this.groupBox1);
             this.groupBox2.Location = new System.Drawing.Point(12, 62);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(652, 443);
+            this.groupBox2.Size = new System.Drawing.Size(835, 374);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(242, 9);
+            this.label1.Location = new System.Drawing.Point(386, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 33);
+            this.label1.Size = new System.Drawing.Size(75, 31);
             this.label1.TabIndex = 5;
-            this.label1.Text = "View and Print";
+            this.label1.Text = "Print";
             // 
             // ReportUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(683, 530);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(877, 453);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -422,9 +422,9 @@
             this.groupBox7.Controls.Add(this.label56);
             this.groupBox7.Controls.Add(this.label57);
             this.groupBox7.Controls.Add(this.label58);
-            this.groupBox7.Location = new System.Drawing.Point(464, 537);
+            this.groupBox7.Location = new System.Drawing.Point(466, 537);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(547, 117);
+            this.groupBox7.Size = new System.Drawing.Size(540, 125);
             this.groupBox7.TabIndex = 24;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Additional Personal Information";
@@ -547,6 +547,7 @@
             // additionalInfobutton
             // 
             this.additionalInfobutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.additionalInfobutton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.additionalInfobutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.additionalInfobutton.ForeColor = System.Drawing.Color.Blue;
             this.additionalInfobutton.Location = new System.Drawing.Point(1012, 605);
@@ -1756,7 +1757,7 @@
             this.groupBox6.Controls.Add(this.label16);
             this.groupBox6.Controls.Add(this.StreettextBox);
             this.groupBox6.Controls.Add(this.label15);
-            this.groupBox6.ForeColor = System.Drawing.Color.White;
+            this.groupBox6.ForeColor = System.Drawing.Color.Black;
             this.groupBox6.Location = new System.Drawing.Point(466, 539);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(540, 129);
@@ -1778,7 +1779,7 @@
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.Color.Yellow;
+            this.label55.ForeColor = System.Drawing.Color.Black;
             this.label55.Location = new System.Drawing.Point(23, 93);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(150, 19);
@@ -1799,7 +1800,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Yellow;
+            this.label16.ForeColor = System.Drawing.Color.Black;
             this.label16.Location = new System.Drawing.Point(23, 60);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(149, 19);
@@ -1820,7 +1821,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Yellow;
+            this.label15.ForeColor = System.Drawing.Color.Black;
             this.label15.Location = new System.Drawing.Point(21, 28);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(151, 19);

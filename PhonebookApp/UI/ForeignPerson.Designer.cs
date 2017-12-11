@@ -324,9 +324,9 @@
             this.groupBox7.Controls.Add(this.label57);
             this.groupBox7.Controls.Add(this.label58);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.groupBox7.Location = new System.Drawing.Point(551, 384);
+            this.groupBox7.Location = new System.Drawing.Point(551, 372);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(654, 134);
+            this.groupBox7.Size = new System.Drawing.Size(654, 146);
             this.groupBox7.TabIndex = 138;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Additional Personal Information";

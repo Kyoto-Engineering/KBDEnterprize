@@ -71,7 +71,7 @@
             this.btnSaveAgeGroup.BackColor = System.Drawing.Color.Lime;
             this.btnSaveAgeGroup.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.btnSaveAgeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSaveAgeGroup.ForeColor = System.Drawing.Color.Blue;
+            this.btnSaveAgeGroup.ForeColor = System.Drawing.Color.Navy;
             this.btnSaveAgeGroup.Location = new System.Drawing.Point(306, 173);
             this.btnSaveAgeGroup.Name = "btnSaveAgeGroup";
             this.btnSaveAgeGroup.Size = new System.Drawing.Size(124, 70);

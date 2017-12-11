@@ -95,6 +95,7 @@ namespace PhonebookApp.LogInUI
             this.button1.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Navy;
             this.button1.Location = new System.Drawing.Point(185, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 34);

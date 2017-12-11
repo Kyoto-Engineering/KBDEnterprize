@@ -39,7 +39,7 @@
             // lblCategoryName
             // 
             this.lblCategoryName.AutoSize = true;
-            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblCategoryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoryName.Location = new System.Drawing.Point(19, 13);
             this.lblCategoryName.Name = "lblCategoryName";
             this.lblCategoryName.Size = new System.Drawing.Size(139, 24);
@@ -48,7 +48,7 @@
             // 
             // txtSpecialization
             // 
-            this.txtSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.txtSpecialization.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSpecialization.Location = new System.Drawing.Point(22, 31);
             this.txtSpecialization.MaxLength = 90;
             this.txtSpecialization.Name = "txtSpecialization";
@@ -67,13 +67,12 @@
             // 
             // btnSaveSpecialization
             // 
-            this.btnSaveSpecialization.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSaveSpecialization.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.btnSaveSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.btnSaveSpecialization.ForeColor = System.Drawing.Color.Blue;
-            this.btnSaveSpecialization.Location = new System.Drawing.Point(305, 168);
+            this.btnSaveSpecialization.BackColor = System.Drawing.Color.White;
+            this.btnSaveSpecialization.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveSpecialization.ForeColor = System.Drawing.Color.Black;
+            this.btnSaveSpecialization.Location = new System.Drawing.Point(305, 166);
             this.btnSaveSpecialization.Name = "btnSaveSpecialization";
-            this.btnSaveSpecialization.Size = new System.Drawing.Size(124, 59);
+            this.btnSaveSpecialization.Size = new System.Drawing.Size(72, 32);
             this.btnSaveSpecialization.TabIndex = 1;
             this.btnSaveSpecialization.Text = "Save ";
             this.btnSaveSpecialization.UseVisualStyleBackColor = false;
@@ -83,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(476, 255);
             this.Controls.Add(this.lblCategoryName);
             this.Controls.Add(this.groupBox1);

@@ -88,9 +88,13 @@
             this.Nationality = new System.Windows.Forms.Label();
             this.textdepartment = new System.Windows.Forms.TextBox();
             this.label70 = new System.Windows.Forms.Label();
+            this.ViewandPrint = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.Envelopbutton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.userPictureBox)).BeginInit();
             this.groupBox7.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.ViewandPrint.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBoxEmailForeign
@@ -143,6 +147,7 @@
             this.cmbJobTitleForeign.Name = "cmbJobTitleForeign";
             this.cmbJobTitleForeign.Size = new System.Drawing.Size(239, 21);
             this.cmbJobTitleForeign.TabIndex = 116;
+            this.cmbJobTitleForeign.SelectedIndexChanged += new System.EventHandler(this.cmbJobTitleForeign_SelectedIndexChanged);
             // 
             // label30
             // 
@@ -185,6 +190,7 @@
             this.cmbSpecialization.Name = "cmbSpecialization";
             this.cmbSpecialization.Size = new System.Drawing.Size(242, 21);
             this.cmbSpecialization.TabIndex = 118;
+            this.cmbSpecialization.SelectedIndexChanged += new System.EventHandler(this.cmbSpecialization_SelectedIndexChanged);
             // 
             // PassportNo
             // 
@@ -273,10 +279,10 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label67.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.Location = new System.Drawing.Point(12, 580);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(307, 16);
+            this.label67.Size = new System.Drawing.Size(246, 15);
             this.label67.TabIndex = 136;
             this.label67.Text = "Only .JPG, .JPEG, .PNG, .BMP is Supported";
             // 
@@ -305,7 +311,7 @@
             this.userPictureBox.BackColor = System.Drawing.Color.MistyRose;
             this.userPictureBox.BackgroundImage = global::PhonebookApp.Properties.Resources.user_up;
             this.userPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.userPictureBox.Location = new System.Drawing.Point(325, 473);
+            this.userPictureBox.Location = new System.Drawing.Point(268, 475);
             this.userPictureBox.Name = "userPictureBox";
             this.userPictureBox.Size = new System.Drawing.Size(150, 150);
             this.userPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -324,9 +330,9 @@
             this.groupBox7.Controls.Add(this.label57);
             this.groupBox7.Controls.Add(this.label58);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.groupBox7.Location = new System.Drawing.Point(551, 372);
+            this.groupBox7.Location = new System.Drawing.Point(551, 361);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(654, 146);
+            this.groupBox7.Size = new System.Drawing.Size(654, 134);
             this.groupBox7.TabIndex = 138;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Additional Personal Information";
@@ -372,10 +378,10 @@
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label60.Location = new System.Drawing.Point(321, 41);
+            this.label60.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(336, 41);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(121, 20);
+            this.label60.Size = new System.Drawing.Size(106, 19);
             this.label60.TabIndex = 18;
             this.label60.Text = "Marital Status";
             // 
@@ -394,31 +400,30 @@
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label56.Location = new System.Drawing.Point(368, 93);
+            this.label56.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Location = new System.Drawing.Point(374, 94);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(74, 20);
+            this.label56.Size = new System.Drawing.Size(63, 17);
             this.label56.TabIndex = 13;
             this.label56.Text = "Religion";
-            this.label56.Click += new System.EventHandler(this.label56_Click);
             // 
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.label57.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.Location = new System.Drawing.Point(30, 94);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(63, 18);
+            this.label57.Size = new System.Drawing.Size(57, 17);
             this.label57.TabIndex = 11;
             this.label57.Text = "Gender";
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
-            this.label58.Location = new System.Drawing.Point(13, 41);
+            this.label58.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(15, 40);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(106, 18);
+            this.label58.Size = new System.Drawing.Size(97, 17);
             this.label58.TabIndex = 9;
             this.label58.Text = "Date Of Birth";
             // 
@@ -440,7 +445,7 @@
             this.groupBox1.Controls.Add(this.label50);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
-            this.groupBox1.Location = new System.Drawing.Point(551, 65);
+            this.groupBox1.Location = new System.Drawing.Point(551, 52);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(654, 301);
             this.groupBox1.TabIndex = 139;
@@ -576,12 +581,11 @@
             // ForeignSave
             // 
             this.ForeignSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ForeignSave.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.ForeignSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.ForeignSave.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeignSave.ForeColor = System.Drawing.Color.Blue;
-            this.ForeignSave.Location = new System.Drawing.Point(1020, 574);
+            this.ForeignSave.Location = new System.Drawing.Point(1080, 501);
             this.ForeignSave.Name = "ForeignSave";
-            this.ForeignSave.Size = new System.Drawing.Size(139, 62);
+            this.ForeignSave.Size = new System.Drawing.Size(125, 42);
             this.ForeignSave.TabIndex = 141;
             this.ForeignSave.Text = "Save";
             this.ForeignSave.UseVisualStyleBackColor = false;
@@ -590,11 +594,11 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold);
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(283, 9);
+            this.label11.Location = new System.Drawing.Point(384, 9);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(493, 31);
+            this.label11.Size = new System.Drawing.Size(447, 31);
             this.label11.TabIndex = 142;
             this.label11.Text = "Overseas Person Details Information";
             // 
@@ -713,12 +717,51 @@
             this.label70.TabIndex = 131;
             this.label70.Text = "Department";
             // 
+            // ViewandPrint
+            // 
+            this.ViewandPrint.Controls.Add(this.button3);
+            this.ViewandPrint.Controls.Add(this.Envelopbutton);
+            this.ViewandPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.ViewandPrint.Location = new System.Drawing.Point(551, 556);
+            this.ViewandPrint.Name = "ViewandPrint";
+            this.ViewandPrint.Size = new System.Drawing.Size(508, 80);
+            this.ViewandPrint.TabIndex = 154;
+            this.ViewandPrint.TabStop = false;
+            this.ViewandPrint.Text = "View And Print";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Blue;
+            this.button3.Location = new System.Drawing.Point(262, 25);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(175, 50);
+            this.button3.TabIndex = 156;
+            this.button3.Text = "Greeting Card";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // Envelopbutton
+            // 
+            this.Envelopbutton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Envelopbutton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Envelopbutton.ForeColor = System.Drawing.Color.Blue;
+            this.Envelopbutton.Location = new System.Drawing.Point(53, 25);
+            this.Envelopbutton.Name = "Envelopbutton";
+            this.Envelopbutton.Size = new System.Drawing.Size(169, 50);
+            this.Envelopbutton.TabIndex = 155;
+            this.Envelopbutton.Text = "Envelop Size";
+            this.Envelopbutton.UseVisualStyleBackColor = false;
+            this.Envelopbutton.Click += new System.EventHandler(this.Envelopbutton_Click);
+            // 
             // ForeignPerson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1227, 655);
+            this.Controls.Add(this.ViewandPrint);
             this.Controls.Add(this.textNationalityForeign);
             this.Controls.Add(this.Nationality);
             this.Controls.Add(this.textContactNumberForeignPerson);
@@ -764,6 +807,7 @@
             this.groupBox7.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.ViewandPrint.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -830,5 +874,8 @@
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.GroupBox ViewandPrint;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Envelopbutton;
     }
 }

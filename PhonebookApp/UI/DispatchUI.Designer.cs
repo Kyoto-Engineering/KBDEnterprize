@@ -96,6 +96,7 @@
             this.Controls.Add(this.InsertPOD);
             this.Controls.Add(this.BatchCreation);
             this.Name = "DispatchUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DispatchUI";
             this.ResumeLayout(false);
 

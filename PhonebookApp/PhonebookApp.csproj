@@ -28,7 +28,7 @@
     <MinimumRequiredVersion>1.0.0.31</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>66</ApplicationRevision>
+    <ApplicationRevision>72</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -216,6 +216,12 @@
       <DependentUpon>EnvelopSizeForeignPersonalAddressDetails.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\ForeignPersonalAddressDetailsEidGreetings.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ForeignPersonalAddressDetailsEidGreetings.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\ListofAllContactsBySpecialization.cs">
       <DependentUpon>ListofAllContactsBySpecialization.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -240,19 +246,39 @@
     <Compile Include="Reports\ListOfContactbySpecialization.Designer.cs">
       <DependentUpon>ListOfContactbySpecialization.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reports\LOIforAutomatedTrafficLightUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Reports\LOIforAutomatedTrafficLightUI.Designer.cs">
-      <DependentUpon>LOIforAutomatedTrafficLightUI.cs</DependentUpon>
+    <Compile Include="Reports\LOIforAutomatedTrafficLight.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LOIforAutomatedTrafficLight.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\LOIforK8DSUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reports\LOIforK8DSUI.Designer.cs">
-      <DependentUpon>LOIforK8DSUI.cs</DependentUpon>
+    <Compile Include="Reports\LOIforKBD2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LOIforKBD2.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Reports\LOIforK8DS_2.cs" />
+    <Compile Include="Reports\LOIforKBDS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LOIforKBDS.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\LOIforKBDUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\LOIforKBDUI.Designer.cs">
+      <DependentUpon>LOIforKBDUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\NewLOIforAutomatedTrafficLightUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\NewLOIforAutomatedTrafficLightUI.Designer.cs">
+      <DependentUpon>NewLOIforAutomatedTrafficLightUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reports\ReportByGroupforA4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -434,6 +460,12 @@
     <Compile Include="UI\CompanySelectionGrid.Designer.cs">
       <DependentUpon>CompanySelectionGrid.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\DispatchUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DispatchUI.Designer.cs">
+      <DependentUpon>DispatchUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\EducationLevel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -544,6 +576,12 @@
     <Compile Include="UI\MainUI.Designer.cs">
       <DependentUpon>MainUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\ManageGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ManageGroup.Designer.cs">
+      <DependentUpon>ManageGroup.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\PersonDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -653,6 +691,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>EnvelopSizeForeignPersonalAddressDetails.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ForeignPersonalAddressDetailsEidGreetings.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ForeignPersonalAddressDetailsEidGreetings.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\ListofAllContactsBySpecialization.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>ListofAllContactsBySpecialization.cs</LastGenOutput>
@@ -667,11 +709,26 @@
     <EmbeddedResource Include="Reports\ListOfContactbySpecialization.resx">
       <DependentUpon>ListOfContactbySpecialization.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\LOIforAutomatedTrafficLightUI.resx">
-      <DependentUpon>LOIforAutomatedTrafficLightUI.cs</DependentUpon>
+    <EmbeddedResource Include="Reports\LOIforAutomatedTrafficLight.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LOIforAutomatedTrafficLight.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\LOIforK8DSUI.resx">
       <DependentUpon>LOIforK8DSUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOIforKBD2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LOIforKBD2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOIforKBDS.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LOIforKBDS.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LOIforKBDUI.resx">
+      <DependentUpon>LOIforKBDUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\NewLOIforAutomatedTrafficLightUI.resx">
+      <DependentUpon>NewLOIforAutomatedTrafficLightUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\ReportByGroupforA4.resx">
       <DependentUpon>ReportByGroupforA4.cs</DependentUpon>
@@ -780,6 +837,9 @@
     <EmbeddedResource Include="UI\CompanySelectionGrid.resx">
       <DependentUpon>CompanySelectionGrid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\DispatchUI.resx">
+      <DependentUpon>DispatchUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\EducationLevel.resx">
       <DependentUpon>EducationLevel.cs</DependentUpon>
     </EmbeddedResource>
@@ -838,6 +898,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ManageGroup.resx">
+      <DependentUpon>ManageGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\PersonDetail.resx">
       <DependentUpon>PersonDetail.cs</DependentUpon>

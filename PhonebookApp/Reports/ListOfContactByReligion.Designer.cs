@@ -37,10 +37,9 @@
             // workingRadioButton
             // 
             this.workingRadioButton.AutoSize = true;
-            this.workingRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.workingRadioButton.Location = new System.Drawing.Point(167, 135);
+            this.workingRadioButton.Location = new System.Drawing.Point(220, 126);
             this.workingRadioButton.Name = "workingRadioButton";
-            this.workingRadioButton.Size = new System.Drawing.Size(188, 28);
+            this.workingRadioButton.Size = new System.Drawing.Size(106, 17);
             this.workingRadioButton.TabIndex = 9;
             this.workingRadioButton.TabStop = true;
             this.workingRadioButton.Text = "Working Address";
@@ -48,33 +47,32 @@
             // 
             // getButton
             // 
-            this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.getButton.Location = new System.Drawing.Point(203, 190);
+            this.getButton.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getButton.Location = new System.Drawing.Point(235, 242);
             this.getButton.Name = "getButton";
-            this.getButton.Size = new System.Drawing.Size(125, 41);
+            this.getButton.Size = new System.Drawing.Size(75, 23);
             this.getButton.TabIndex = 8;
             this.getButton.Text = "GET";
-            this.getButton.UseVisualStyleBackColor = true;
+            this.getButton.UseVisualStyleBackColor = false;
             this.getButton.Click += new System.EventHandler(this.getButton_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(31, 90);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(123, 82);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 24);
+            this.label2.Size = new System.Drawing.Size(97, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Religion";
+            this.label2.Text = "Religion     :";
             // 
             // religionComboBox
             // 
-            this.religionComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.religionComboBox.FormattingEnabled = true;
-            this.religionComboBox.Location = new System.Drawing.Point(146, 87);
+            this.religionComboBox.Location = new System.Drawing.Point(220, 79);
             this.religionComboBox.Name = "religionComboBox";
-            this.religionComboBox.Size = new System.Drawing.Size(262, 32);
+            this.religionComboBox.Size = new System.Drawing.Size(121, 21);
             this.religionComboBox.TabIndex = 6;
             this.religionComboBox.SelectedIndexChanged += new System.EventHandler(this.religionComboBox_SelectedIndexChanged_1);
             // 
@@ -82,8 +80,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(497, 312);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(525, 361);
             this.Controls.Add(this.workingRadioButton);
             this.Controls.Add(this.getButton);
             this.Controls.Add(this.label2);

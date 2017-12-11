@@ -39,10 +39,9 @@
             // resedentialRadioButton
             // 
             this.resedentialRadioButton.AutoSize = true;
-            this.resedentialRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.resedentialRadioButton.Location = new System.Drawing.Point(185, 150);
+            this.resedentialRadioButton.Location = new System.Drawing.Point(204, 138);
             this.resedentialRadioButton.Name = "resedentialRadioButton";
-            this.resedentialRadioButton.Size = new System.Drawing.Size(214, 28);
+            this.resedentialRadioButton.Size = new System.Drawing.Size(118, 17);
             this.resedentialRadioButton.TabIndex = 16;
             this.resedentialRadioButton.TabStop = true;
             this.resedentialRadioButton.Text = "Residential Address";
@@ -51,10 +50,9 @@
             // workingRadioButton
             // 
             this.workingRadioButton.AutoSize = true;
-            this.workingRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.workingRadioButton.Location = new System.Drawing.Point(185, 116);
+            this.workingRadioButton.Location = new System.Drawing.Point(204, 112);
             this.workingRadioButton.Name = "workingRadioButton";
-            this.workingRadioButton.Size = new System.Drawing.Size(188, 28);
+            this.workingRadioButton.Size = new System.Drawing.Size(106, 17);
             this.workingRadioButton.TabIndex = 15;
             this.workingRadioButton.TabStop = true;
             this.workingRadioButton.Text = "Working Address";
@@ -62,12 +60,10 @@
             // 
             // getButton
             // 
-            this.getButton.BackgroundImage = global::PhonebookApp.Properties.Resources.whiteyglossyrectanglebuttonmd;
-            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.getButton.ForeColor = System.Drawing.Color.Blue;
-            this.getButton.Location = new System.Drawing.Point(205, 207);
+            this.getButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getButton.Location = new System.Drawing.Point(205, 209);
             this.getButton.Name = "getButton";
-            this.getButton.Size = new System.Drawing.Size(110, 42);
+            this.getButton.Size = new System.Drawing.Size(75, 23);
             this.getButton.TabIndex = 14;
             this.getButton.Text = "GET";
             this.getButton.UseVisualStyleBackColor = true;
@@ -76,20 +72,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(72, 66);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(44, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 24);
+            this.label1.Size = new System.Drawing.Size(95, 16);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Group";
+            this.label1.Text = "Group Name";
             // 
             // groupComboBox
             // 
-            this.groupComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.groupComboBox.FormattingEnabled = true;
-            this.groupComboBox.Location = new System.Drawing.Point(157, 63);
+            this.groupComboBox.Location = new System.Drawing.Point(145, 71);
             this.groupComboBox.Name = "groupComboBox";
-            this.groupComboBox.Size = new System.Drawing.Size(268, 32);
+            this.groupComboBox.Size = new System.Drawing.Size(292, 21);
             this.groupComboBox.TabIndex = 12;
             this.groupComboBox.SelectedIndexChanged += new System.EventHandler(this.groupComboBox_SelectedIndexChanged);
             // 
@@ -97,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(509, 302);
             this.Controls.Add(this.resedentialRadioButton);
             this.Controls.Add(this.workingRadioButton);
